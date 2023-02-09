@@ -171,7 +171,7 @@ header nav form .boton:hover{
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
-    width: 1000px;
+    width: 750px;
 }
 
 
@@ -731,10 +731,25 @@ header nav form .boton:hover{
 
 
 @media screen and (max-width:752px){   
+    
+    .calidad{
+        max-width: 100%;
+        height: 250px;
+    }
+    
     .calidad h2{
         font-size: 55px;
         max-width: 100%;
         padding-bottom: 5px;
+    }
+    
+    .calidad-imagen{
+        background-image: url("../img/calidad4.png");
+        background-position: center;
+        background-position-x: fixed;
+        background-repeat: no-repeat;
+        height: 250px;
+        max-width: 100%;
     }
 
     .productos h2{
@@ -906,6 +921,11 @@ header nav form .boton:hover{
         font-size: 40px;
     }
 
+    .calidad-imagen{
+        height: 150px;
+        max-width: 100%;
+    }
+
     .calidad h2{
         font-size: 50px;
     }
@@ -920,10 +940,22 @@ header nav form .boton:hover{
         font-size: 20px;
     }
 
+    .productos{
+        max-width: 100%;
+        height:  900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+
     .productos h2{
         font-size: 50px;
         max-width: 100%;
     }
+
 
 }
 
@@ -931,74 +963,12 @@ header nav form .boton:hover{
     
     .productos{
         max-width: 100%;
-        height:  1000px;
+        height:  2200px;
         display: flex;
-        flex-direction: column;
-        
-    }
-    
-    .productos div{
-
-        padding: 20px;
-        max-width: 100%;
-    }
-
-    .productos h2{
-        max-width: 100%;
-        padding: 5px;
-    }
-
-    .cajasUno{
-        max-width: 100%;
-        margin: 10px;
-        padding: 20px;
-    } 
-
-    .cajasUno div{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasUno div img{
-        max-width: 100%;
-        margin: 10px;
-        object-fit: cover;
-    } 
-
-    .cajasUno div h3{
-        font-size: 20px;
-    }
-
-    .cajasDos{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasDos div{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasDos div img{
-        max-width: 100%;
-        margin: 10px;
-        object-fit: cover;
-    } 
-
-    .cajasDos div h3{
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width:601px){
-    .productos{
-        max-width: 100%;
-        height:  1000px;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        flex-direction: column;
+        margin-top: 5px;
     }
     
     .productos div{
@@ -1009,51 +979,64 @@ header nav form .boton:hover{
     .productos h2{
         max-width: 100%;
         padding: 5px;
-        font-size: 45px;
+        height: 100px;
+        margin-top: 200px;
+        margin-bottom: 250px;
     }
 
     .cajasUno{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         max-width: 100%;
-        margin: 10px;
-        padding: 20px;
-    } 
-
-    .cajasUno div{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasUno div img{
-        max-width: 100%;
-        margin: 10px;
-        object-fit: cover;
-    } 
-
-    .cajasUno div h3{
-        font-size: 20px;
-    }
+        margin-bottom: 360px;
+        margin-top: 100px;
+        padding: 10px;
+        height: 1000px;  
+}
 
     .cajasDos{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasDos div{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasDos div img{
-        max-width: 100%;
-        margin: 10px;
-    } 
-
-    .cajasDos div h3{
-        font-size: 16px;
+        margin-bottom:550px;
+        margin-top: 300px;
+        padding: 20px;
+        height: 1000px;
     }
 }
 
+@media screen and (max-width:597px){
+    .calidad{
+        max-width: 100%;
+        height: 200px;
+    }
 
+    .calidad h2{
+        font-size: 55px;
+        max-width: 100%;
+        padding-bottom: 5px;
+    }
+    
+    .calidad-imagen{
+        background-image: url("../img/calidad5.png");
+        background-position: center;
+        background-position-x: fixed;
+        background-repeat: no-repeat;
+        height: 150px;
+        max-width: 100%;
+    }
+    
+    .productos h2{
+        font-size: 40px;
+        max-width: 100%;
+        margin-left: 50px;
+    }
+}
+    
 @media screen and (max-width:561px){
     .contacto{
         width: 100%;
@@ -1071,62 +1054,7 @@ header nav form .boton:hover{
         font-size: 45px;
         max-width: 100%;
     }
-
-    .productos{
-        width: 100%;
-        height: 1000px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .productos h2{
-        max-width: 100%;
-        padding: 5px;
-        font-size: 40px;
-    }
-
-    .productos div{
-        padding: 10px;
-        max-width: 100%;
-        height: 350px;
-        width: 100%;
-    }
-
-    .cajasUno{
-        padding: 20px;
-        max-width: 100%;
-
-    }
-
-    .cajasDos{
-        padding: 20px;
-        max-width: 100%;
-    }
-
-    .productos div div img{
-        max-width: 100%;
-        width: 100%;
-        height: 80%;
-    }
-
-    .productos div div a{
-        width: 70%;
-        height: 10%;
-    }
-
-    .cajasUno div h3{
-        font-size: 25px;
-    }
-
-    .cajasDos div h3{
-        font-size: 25px;
-    }
-
-
 }
-
 
 @media screen and (max-width:487px){
     header h1{
@@ -1265,6 +1193,27 @@ header nav form .boton:hover{
         height: 100px;
     }
 
+    .calidad{
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .calidad h2{
+        font-size: 55px;
+        max-width: 100%;
+        padding-bottom: 5px;
+    }
+    
+    .calidad-imagen{
+        background-image: url("../img/calidad6.png");
+        background-position: center;
+        background-position-x: fixed;
+        background-repeat: no-repeat;
+        height: 150px;
+        max-width: 100%;
+    }
+
+
     .contacto p{
         margin: 5px;
         font-size: 18px;
@@ -1309,6 +1258,11 @@ header nav form .boton:hover{
         width: 100%;
     }
 
+    .productos h2{
+        margin-left: 10px;
+        height: 350px;
+        max-width: 100%;
+    }
 
 }
 
