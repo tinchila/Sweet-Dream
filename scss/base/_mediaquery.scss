@@ -1,0 +1,1279 @@
+@media screen and (max-width:1045px){
+	header{
+		h1{
+			font-size: 50px;
+			padding: 10px;
+		}
+	}
+}
+@media screen and (max-width:920px){
+	.hero{
+		p{
+			font-size: 20px;
+		}
+		h2{
+			font-size: 60px;
+		}
+	}
+	.cajasUno{
+		width: 90%;
+		margin: 10px;
+		div{
+			width: 90%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+		}
+	}
+	.cajasDos{
+		width: 90%;
+		margin: 10px;
+		div{
+			width: 90%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+		}
+	}
+	.copyright{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width:901px){
+	.productos{
+		div{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px;
+			max-width: 100%;
+			height: 350px;
+		}
+	}
+	.cajasUno{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 30px;
+			}
+		}
+	}
+	.cajasDos{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 35px;
+			}
+		}
+	}
+}
+@media screen and (max-width:855px){
+	.productos{
+		height: 850px;
+		max-width: 100%;
+		width: 100%;
+		h2{
+			max-width: 100%;
+			height: 100px;
+			font-size: 60px;
+		}
+		div{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px;
+			max-width: 100%;
+			height: 350px;
+		}
+	}
+	.contacto{
+		p{
+			margin: 5px;
+			font-size: 20px;
+			padding: 5px;
+			width: 70%;
+		}
+		h2{
+			font-size: 60px;
+			padding: 5px;
+			max-width: 100%;
+			height: 70px;
+			margin: 10px;
+		}
+		a{
+			text-decoration: none;
+			color: $color_1;
+			font-weight: bold;
+			background-color: $background-color_2;
+			padding: 5px 10px;
+			border: 1px solid gray;
+			justify-content: center;
+			align-items: center;
+			transition: 1s;
+			font-family: $font-family_2;
+		}
+	}
+	.footerDerecha{
+		img{
+			color: $color_1;
+			width: 40px;
+			height: 35px;
+			margin: 15px;
+		}
+	}
+	.footerIzquierda{
+		img{
+			width: 100%;
+			height: 80px;
+			margin-left: 50px;
+			margin-bottom: 15px;
+		}
+	}
+	.pie{
+		max-width: 100%;
+		height: 130px;
+	}
+	.cajasUno{
+		width: 100%;
+		margin: 10px;
+		div{
+			width: 100%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 30px;
+			}
+		}
+	}
+	.cajasDos{
+		width: 100%;
+		margin: 10px;
+		div{
+			width: 100%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 35px;
+			}
+		}
+	}
+}
+@media screen and (max-width:811px){
+	.productos{
+		div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 10px;
+			max-width: 100%;
+			height: 350px;
+		}
+		h2{
+			width: 80%;
+			max-width: 100%;
+		}
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.cajasUno{
+		width: 100%;
+		margin: 10px;
+		div{
+			width: 100%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 25px;
+			}
+		}
+	}
+	.cajasDos{
+		width: 100%;
+		margin: 10px;
+		div{
+			width: 100%;
+			margin: 10px;
+			img{
+				width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 30px;
+			}
+		}
+	}
+}
+@media screen and (max-width:752px){
+	.calidad{
+		max-width: 100%;
+		height: 250px;
+		h2{
+			font-size: 55px;
+			max-width: 100%;
+			padding-bottom: 5px;
+		}
+	}
+	.calidad-imagen{
+		background-image: url("../img/calidad4.png");
+		background-position: center;
+		background-position-x: fixed;
+		background-repeat: no-repeat;
+		height: 250px;
+		max-width: 100%;
+	}
+	.productos{
+		h2{
+			font-size: 60px;
+			max-width: 100%;
+		}
+		div{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding-bottom: 50px;
+			max-width: 100%;
+			height: 350px;
+		}
+		height: 1000px;
+	}
+	.cajasUno{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 20px;
+			}
+		}
+	}
+	.cajasDos{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 27px;
+			}
+		}
+	}
+	.pie{
+		display: flex;
+		align-items: center;
+		flex-direction: column-reverse;
+		height: 250px;
+		width: 100%;
+	}
+	.footerIzquierda{
+		img{
+			width: 100%;
+			height: 100px;
+			margin: 10px;
+		}
+	}
+	.copyright{
+		font-size: 15px;
+		padding: 5px;
+		width: 100%;
+		margin: 5px;
+	}
+	.footerDerecha{
+		height: 100px;
+	}
+}
+@media screen and (max-width:701px){
+	.productos{
+		max-width: 100%;
+		height: 1000px;
+		padding-bottom: 10px;
+		div{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px;
+			max-width: 100%;
+			height: 350px;
+			div{
+				img{
+					max-width: 100%;
+					height: 80%;
+				}
+				a{
+					max-width: 100%;
+					height: 10%;
+				}
+			}
+		}
+		h2{
+			font-size: 50px;
+			max-width: 100%;
+		}
+	}
+	.cajasUno{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 20px;
+			}
+		}
+	}
+	.cajasDos{
+		max-width: 100%;
+		margin: 10px;
+		div{
+			max-width: 100%;
+			margin: 10px;
+			img{
+				max-width: 100%;
+				margin: 10px;
+				object-fit: cover;
+			}
+			h3{
+				font-size: 23px;
+			}
+		}
+	}
+}
+@media screen and (max-width:673px){
+	.hero{
+		p{
+			font-size: 20px;
+		}
+		h2{
+			font-size: 40px;
+		}
+	}
+	.calidad-imagen{
+		height: 150px;
+		max-width: 100%;
+	}
+	.calidad{
+		h2{
+			font-size: 50px;
+		}
+	}
+	.dream{
+		h2{
+			font-size: 40px;
+		}
+		h3{
+			width: 80%;
+			padding: 20px;
+			font-size: 20px;
+		}
+	}
+	.productos{
+		max-width: 100%;
+		height: 900px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 5px;
+		h2{
+			font-size: 50px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:641px){
+	.productos{
+		max-width: 100%;
+		height: 2200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 5px;
+		div{
+			padding: 20px;
+			max-width: 100%;
+		}
+		h2{
+			max-width: 100%;
+			padding: 5px;
+			height: 100px;
+			margin-top: 200px;
+			margin-bottom: 250px;
+		}
+	}
+	.cajasUno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		max-width: 100%;
+		margin-bottom: 360px;
+		margin-top: 100px;
+		padding: 10px;
+		height: 1000px;
+	}
+	.cajasDos{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		max-width: 100%;
+		margin-bottom: 550px;
+		margin-top: 300px;
+		padding: 20px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width:597px){
+	.calidad{
+		max-width: 100%;
+		height: 200px;
+		h2{
+			font-size: 55px;
+			max-width: 100%;
+			padding-bottom: 5px;
+		}
+	}
+	.calidad-imagen{
+		background-image: url("../img/calidad5.png");
+		background-position: center;
+		background-position-x: fixed;
+		background-repeat: no-repeat;
+		height: 150px;
+		max-width: 100%;
+	}
+	.productos{
+		h2{
+			font-size: 40px;
+			max-width: 100%;
+			margin-left: 50px;
+		}
+	}
+}
+@media screen and (max-width:561px){
+	.contacto{
+		width: 100%;
+		height: 300px;
+		p{
+			margin: 5px;
+			font-size: 20px;
+			padding: 5px;
+			width: 70%;
+		}
+		h2{
+			font-size: 45px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:487px){
+	header{
+		h1{
+			font-size: 40px;
+			padding: 5px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						height: 100px;
+						border-radius: 100%;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+	}
+	.dream{
+		h2{
+			font-size: 40px;
+		}
+	}
+	.productos{
+		h2{
+			font-size: 35px;
+			max-width: 100%;
+		}
+	}
+	.pie{
+		width: 100%;
+		height: 300px;
+	}
+}
+@media screen and (max-width:435px){
+	header{
+		h1{
+			font-size: 34px;
+			padding: 10px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						height: 100px;
+						border-radius: 100%;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+	}
+	.productos{
+		h2{
+			font-size: 32px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:409px){
+	header{
+		h1{
+			font-size: 32px;
+			padding: 10px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						border-radius: 100%;
+						padding-right: 10px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+	.contacto {
+		p{
+			margin: 5px;
+			font-size: 20px;
+			padding: 5px;
+			width: 100%;
+		}
+		h2{
+			font-size: 50px;
+			padding: 5px;
+			max-width: 100%;
+			height: 70px;
+			margin: 10px;
+		}
+	}
+	.productos{
+		h2{
+			font-size: 30px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:393px){
+	header{
+		h1{
+			font-size: 30px;
+			padding: 10px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						border-radius: 100%;
+						padding-right: 10px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+	.productos{
+		h2{
+			font-size: 28px;
+			max-width: 100%;
+			padding: 0px;
+		}
+	}
+}
+@media screen and (max-width:387px){
+	header{
+		h1{
+			font-size: 27px;
+			padding: 10px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						border-radius: 100%;
+						padding-right: 10px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:375px){
+	header{
+		h1{
+			font-size: 25px;
+			padding: 5px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						border-radius: 100%;
+						padding-right: 10px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+	.calidad{
+		max-width: 100%;
+		height: 200px;
+		h2{
+			font-size: 55px;
+			max-width: 100%;
+			padding-bottom: 5px;
+		}
+	}
+	.calidad-imagen{
+		background-image: url("../img/calidad6.png");
+		background-position: center;
+		background-position-x: fixed;
+		background-repeat: no-repeat;
+		height: 150px;
+		max-width: 100%;
+	}
+	.contacto{
+		p{
+			margin: 5px;
+			font-size: 18px;
+			padding: 5px;
+			width: 100%;
+		}
+		h2{
+			font-size: 45px;
+			padding: 5px;
+			max-width: 100%;
+			height: 70px;
+			margin: 10px;
+		}
+	}
+}
+@media screen and (max-width:366px){
+	header{
+		h1{
+			font-size: 25px;
+		}
+		nav{
+			div{
+				a{
+					img{
+						width: 100%;
+						border-radius: 100%;
+						padding-right: 10px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+	.dream{
+		h2{
+			font-size: 35px;
+		}
+		h3{
+			width: 80%;
+			padding: 20px;
+			font-size: 20px;
+		}
+	}
+	.calidad{
+		h2{
+			font-size: 40px;
+			width: 100%;
+		}
+	}
+	.productos{
+		h2{
+			margin-left: 10px;
+			height: 350px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:997px){
+	.formulario{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 100%;
+	}
+	.formularioDerecha{
+		max-width: 100%;
+		padding: 10px 150px;
+	}
+	.formularioIzquierda{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		div{
+			padding: 10px;
+			h3{
+				padding: 5px 10px;
+			}
+		}
+	}
+}
+@media screen and (max-width:919px){
+	.contactoPagina{
+		h3{
+			padding: 10px 150px;
+		}
+	}
+}
+@media screen and (max-width:760px){
+	.contactoPagina{
+		h3{
+			padding: 10px 100px;
+			padding: 10px 50px;
+		}
+		h2{
+			font-size: 110px;
+		}
+	}
+}
+@media screen and (max-width:675px){
+	.formularioDerecha{
+		width: 100%;
+		padding: 10px 120px;
+	}
+	.mapa{
+		iframe{
+			width: 100%;
+			height: 500px;
+		}
+		object{
+			width: 100%;
+			height: 500px;
+		}
+		embed{
+			width: 100%;
+			height: 500px;
+		}
+	}
+}
+@media screen and (max-width:599px){
+	.formularioDerecha{
+		max-width: 100%;
+		padding: 10px;
+	}
+}
+@media screen and (max-width:560px){
+	.contactoPagina{
+		h3{
+			padding: 10px 30px;
+			font-size: 20px;
+		}
+		h2{
+			font-size: 100px;
+		}
+	}
+	.formularioDerecha{
+		font-size: 13px;
+	}
+	.formularioIzquierda{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:431px){
+	.formularioIzquierda {
+		p{
+			font-size: 20px;
+		}
+		h3{
+			font-size: 40px;
+		}
+	}
+	.contactoPagina{
+		h3{
+			padding: 10px 25px;
+			font-size: 18px;
+		}
+	}
+}
+@media screen and (max-width:379px){
+	.contactoPagina{
+		h3{
+			padding: 10px 20px;
+			font-size: 16px;
+		}
+		h2{
+			font-size: 90px;
+		}
+	}
+}
+@media screen and (max-width:1063px){
+	.container-produccion{
+		p{
+			padding: 10px 10px;
+		}
+	}
+	.imagenes-alfajores{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagenes-bombones{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagenes-chocolates{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.imagenes-huevos{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagenes-panes{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagenes-empresariales{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:858px){
+	.container-produccion{
+		p{
+			font-size: 20px;
+		}
+	}
+	.Regalos{
+		h2{
+			width: 50%;
+			height: 120px;
+		}
+	}
+}
+@media screen and (max-width:753px){
+	.container-alfajores{
+		height: 300px;
+	}
+	.container-bombones{
+		height: 300px;
+	}
+	.container-chocolates{
+		height: 300px;
+	}
+	.container-huevos{
+		height: 300px;
+	}
+	.container-panes{
+		height: 300px;
+	}
+	.container-regalos{
+		height: 300px;
+	}
+	.Regalos{
+		h2{
+			font-size: 70px;
+		}
+	}
+	.container-produccion{
+		div{
+			img{
+				width: 400px;
+				height: 250px;
+			}
+		}
+	}
+}
+@media screen and (max-width:590px){
+	.Regalos{
+		h2{
+			font-size: 60px;
+			height: 100px;
+		}
+	}
+	.Huevos{
+		h2{
+			font-size: 70px;
+			width: 70%;
+			height: 100px;
+		}
+	}
+}
+@media screen and (max-width:500px){
+	.container-produccion{
+		div{
+			img{
+				width: 250px;
+				height: 150px;
+			}
+		}
+		p{
+			font-size: 15px;
+		}
+	}
+	.container-alfajores{
+		height: 200px;
+	}
+	.container-bombones{
+		height: 200px;
+	}
+	.container-chocolates{
+		height: 200px;
+	}
+	.container-huevos{
+		height: 200px;
+	}
+	.container-panes{
+		height: 200px;
+	}
+	.container-regalos{
+		height: 200px;
+	}
+	.imagenes-chocolates{
+		height: 700px;
+	}
+	.Regalos{
+		h2{
+			font-size: 50px;
+			height: 60px;
+		}
+	}
+	.Alfajores{
+		h2{
+			font-size: 70px;
+		}
+	}
+	.Bombones{
+		h2{
+			font-size: 70px;
+		}
+	}
+	.Chocolates{
+		h2{
+			font-size: 70px;
+		}
+	}
+	.Pan{
+		h2{
+			font-size: 70px;
+		}
+	}
+}
+@media screen and (max-width:430px){
+	.Regalos{
+		h2{
+			font-size: 40px;
+			height: 30px;
+		}
+	}
+}
+@media screen and (max-width:395px){
+	.Huevos{
+		h2{
+			font-size: 60px;
+			width: 70%;
+			height: 100px;
+		}
+	}
+	.Alfajores{
+		h2{
+			font-size: 60px;
+		}
+	}
+	.Bombones{
+		h2{
+			font-size: 60px;
+		}
+	}
+	.Chocolates{
+		h2{
+			font-size: 60px;
+		}
+	}
+	.Pan{
+		h2{
+			font-size: 60px;
+		}
+	}
+}
+@media screen and (max-width:1070px){
+	.grid-history{
+		div{
+			img{
+				width: 300px;
+				height: 300px;
+				object-fit: cover;
+			}
+		}
+	}
+}
+@media screen and (max-width:953px){
+	.grid-history{
+		div{
+			img{
+				width: 250px;
+				height: 250px;
+				object-fit: cover;
+			}
+		}
+	}
+}
+@media screen and (max-width:912px){
+	.video{
+		h2{
+			font-size: 45px;
+			max-width: 100%;
+		}
+	}
+	.historia{
+		h2{
+			font-size: 63px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:830px){
+	.video{
+		h2{
+			font-size: 40px;
+			max-width: 100%;
+		}
+	}
+	.historia{
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h2{
+			font-size: 55px;
+			max-width: 100%;
+		}
+	}
+	.grid-historia{
+		height: 800px;
+		max-width: 100%;
+		background-color: $background-color_4;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:723px) {
+	.historia{
+		h2{
+			font-size: 48px;
+			max-width: 100%;
+		}
+	}
+	.video1 {
+		max-width: 100%;
+	}
+}
+@media screen and (max-width:655px){
+	.video{
+		iframe{
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:550px){
+	.video{
+		h2{
+			font-size: 35px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:499px){
+	.video{
+		h2{
+			font-size: 30px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:420px){
+	.video{
+		h2{
+			font-size: 25px;
+			max-width: 100%;
+		}
+	}
+	.historia{
+		h2 {
+			font-size: 40px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:385px){
+	.video{
+		h2{
+			font-size: 22px;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width:845px){
+	.tienda{
+		ol{
+			height: 500px;
+		}
+	}
+}
+@media screen and (max-width:670px){
+	.tienda{
+		ol{
+			height: 550px;
+		}
+	}
+}
+@media screen and (max-width:623px){
+	.tienda{
+		ol{
+			height: 570px;
+		}
+	}
+}
+@media screen and (max-width:619px){
+	.tienda{
+		ol{
+			height: 520px;
+			font-size: 23px;
+		}
+		h2{
+			font-size: 110px;
+		}
+	}
+}
+@media screen and (max-width:587px){
+	.tienda{
+		ol{
+			height: 600px;
+		}
+		h2{
+			font-size: 100px;
+		}
+	}
+}
+@media screen and (max-width:531px){
+	.tienda{
+		o {
+			font-size: 21px;
+			height: 650px;
+		}
+	}
+}
+@media screen and (max-width:480px){
+	.tienda{
+		ol{
+			font-size: 19px;
+			height: 650px;
+		}
+		h2{
+			font-size: 90px;
+		}
+	}
+}
+@media screen and (max-width:421px){
+	.tienda{
+		ol{
+			font-size: 17px;
+			height: 560px;
+		}
+		h2{
+			font-size: 80px;
+		}
+	}
+}
+@media screen and (max-width:399px){
+	.tienda{
+		ol{
+			font-size: 15px;
+			height: 500px;
+			font-size: 14px;
+			height: 500px;
+		}
+	}
+}
