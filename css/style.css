@@ -1563,12 +1563,12 @@ input:focus{
 }
 
 .container-produccion div img{
-    width: 600px;
+    width: 500px;
     height: 400px;
     object-fit:inherit;
     overflow: hidden;
     position: relative;
-    margin: 10px auto;
+    margin: 0px;
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
 
@@ -1579,7 +1579,8 @@ input:focus{
     max-width: 100%;
     height: 100%;
     color:Black;
-    padding: 10px 200px;
+    padding: 10px 200px 0px 200px;
+    margin-bottom: 0px;
     font-style: italic;
     font-family: 'Indie Flower', cursive;
     background-color: #d4b562;
@@ -1599,29 +1600,33 @@ input:focus{
 .Alfajores h2{
     color:black;
     font-size: 80px;
-    padding: 0px 10px;
+    padding: 0px 20px;
     font-family: 'Dancing Script';
-    height: 20px;
-    margin: 60px;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .container-alfajores{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .imagenes-alfajores{
     background-color: #d4b562;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -1641,25 +1646,31 @@ input:focus{
     padding: 0px 10px;
     font-family: 'Dancing Script';
     height: 20px;
-    margin: 60px;
+    margin-bottom: 70px;
     margin-top: 5px;
 }
 
 .container-bombones{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .imagenes-bombones{
     background-color: #d4b562;
     width: 100%;
-    padding: 0px 10px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -1679,17 +1690,20 @@ input:focus{
     padding: 0px 10px;
     font-family: 'Dancing Script';
     height: 20px;
-    margin: 60px;
+    margin-bottom: 70px;
     margin-top: 5px;
 }
 
 .container-chocolates{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .imagenes-chocolates{
@@ -1698,9 +1712,10 @@ input:focus{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-auto-rows: 250px;
-    width: 100%;   
+    width: 100%;
+    gap: 10px;
+    height: 900px;
 }
-
 
 .imagenes-chocolates div img{
     width: 100%;
@@ -1725,25 +1740,31 @@ input:focus{
     padding: 0px 10px;
     font-family: 'Dancing Script';
     height: 20px;
-    margin: 60px;
+    margin-bottom: 70px;
     margin-top: 5px;
 }
 
 .container-huevos{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .imagenes-huevos{
     background-color: #d4b562;
     width: 100%;
-    padding: 0px 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -1763,28 +1784,33 @@ input:focus{
     padding: 0px 10px;
     font-family: 'Dancing Script';
     height: 20px;
-    margin: 50px;
+    margin-bottom: 70px;
     margin-top: 5px;
 }
 
 .container-panes{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .imagenes-panes{
     background-color: #d4b562;
     width: 100%;
-    padding: 0px 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-items: center;
+    justify-content: space-around;
     align-items: center;
 }
-
 
 .Regalos{
     display: flex;
@@ -1799,20 +1825,23 @@ input:focus{
 .Regalos h2{
     color:black;
     font-size: 80px;
-    padding: 0px 30px;
+    padding: 0px 10px;
     font-family: 'Dancing Script';
-    height: 25px;
-    margin: 55px;
+    height: 20px;
     margin-top: 5px;
+    margin-bottom: 70px;
 }
 
 .container-regalos{
     background-color: #3d210f;
     width: 100%;
-    margin-top: 20px;
+    height: 450px;
+    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -1820,10 +1849,10 @@ input:focus{
     background-color: #d4b562;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 2fr);
     grid-auto-rows: 350px;
     width: 100%;
-    gap: 15px;   
+    gap: 5px;
 }
 
 .imagenes-empresariales div img{
@@ -1831,6 +1860,221 @@ input:focus{
     height: 100%;
     object-fit: cover;
 }
+
+/*!--------------- MEDIA QUERY -------------*/
+
+@media screen and (max-width:1063px){
+    .container-produccion p{
+        padding: 10px 10px;
+    }
+
+    .imagenes-alfajores{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+    .imagenes-bombones{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagenes-chocolates{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .imagenes-huevos{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagenes-panes{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagenes-empresariales{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:858px){
+    .container-produccion p{
+        font-size: 20px;
+    }
+
+    .Regalos h2{
+        width: 50%;
+        height: 120px;
+    }
+
+}
+
+
+@media screen and (max-width:753px){
+    .container-alfajores{
+        height: 300px;
+    }
+
+    .container-bombones{
+        height: 300px;
+    }
+
+    .container-chocolates{
+        height: 300px;
+    }
+
+    .container-huevos{
+        height: 300px;
+    }
+
+
+    .container-panes{
+        height: 300px;
+    }
+
+    .container-regalos{
+        height: 300px;
+    }
+
+    .Regalos h2{
+        font-size: 70px;
+    }
+
+    .container-produccion div img{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:590px){
+    .Regalos h2{
+        font-size: 60px;
+        height: 100px;
+    }
+
+    .Huevos h2{
+        font-size: 70px;
+        width: 70%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .container-produccion div img{
+        width: 250px;
+        height: 150px;
+    }
+
+    .container-produccion p{
+        font-size: 15px;
+    }
+    .container-alfajores{
+        height: 200px;
+    }
+
+    .container-bombones{
+        height: 200px;
+    }
+
+    .container-chocolates{
+        height: 200px;
+    }
+
+    .container-huevos{
+        height: 200px;
+    }
+
+    .container-panes{
+        height: 200px;
+    }
+
+    .container-regalos{
+        height: 200px;
+    }
+
+    .imagenes-chocolates{
+        height: 700px;
+    }
+
+    .Regalos h2{
+        font-size: 50px;
+        height: 60px;
+    }
+
+    .Alfajores h2{
+        font-size: 70px;
+    }
+
+    .Bombones h2{
+        font-size: 70px;
+    }
+
+    .Chocolates h2{
+        font-size: 70px;
+    }
+
+    .Pan h2{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .Regalos h2{
+        font-size: 40px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:395px){
+    .Huevos h2{
+        font-size: 60px;
+        width: 70%;
+        height: 100px;
+    }
+
+    .Alfajores h2{
+        font-size: 60px;
+    }
+
+    .Bombones h2{
+        font-size: 60px;
+    }
+
+    .Chocolates h2{
+        font-size: 60px;
+    }
+
+    .Pan h2{
+        font-size: 60px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------------HISTORIA------------------------------*/
 
