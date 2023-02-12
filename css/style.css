@@ -1290,6 +1290,8 @@ header nav form .boton:hover{
     color:black;
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
+    width: 100%;
+    padding: 10px 230px;
 }
 
 
@@ -1364,23 +1366,163 @@ header nav form .boton:hover{
     font-family: 'Indie Flower', cursive;
 }
 
+.name{
+    font-size: 25px;
+}
+
 .direccion{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    height: 550px;
+    width: 100%;
 }
 
-.mapa{
-    margin: 500px;
-    padding: 500px;
-    width: 100%;
+.mapa {
+    position: relative;
+    overflow: hidden;
 }
 
 input:focus{
     border-radius: 5px;
     border: 1px solid #3d210f;
 }
+
+/*!--------------- MEDIA QUERY -------------*/
+
+@media screen and (max-width:997px){
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .formularioDerecha{
+        max-width: 100%;
+        padding: 10px 150px;
+    }   
+
+    .formularioIzquierda{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formularioIzquierda div{
+        padding: 10px;
+    }
+
+    .formularioIzquierda div h3{
+        padding: 5px 10px;
+    }
+}
+
+
+@media screen and (max-width:919px){
+    .contactoPagina h3{
+        padding: 10px 150px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .contactoPagina h3{
+        padding: 10px 100px;
+    }
+}
+    
+@media screen and (max-width:760px){
+    .contactoPagina h3{
+        padding: 10px 50px;
+    }
+        
+    .contactoPagina h2{
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width:675px){
+    .formularioDerecha{
+        width: 100%;
+        padding: 10px 120px;
+    }
+
+
+    .mapa iframe,   
+    .mapa object,  
+    .mapa embed {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/* @media screen and (max-width:630px){ 
+    .mapa iframe{
+        max-width: 100%;
+        height: auto;
+    }
+} */
+
+@media screen and (max-width:599px){
+    .formularioDerecha{
+        max-width: 100%;
+        padding: 10px;  
+    }
+}
+
+
+@media screen and (max-width:560px){
+    .contactoPagina h3{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+        
+    .contactoPagina h2{
+        font-size: 100px;
+    }
+
+    .formularioDerecha{
+        font-size: 13px;
+    }
+
+    .formularioIzquierda{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:431px){
+    .formularioIzquierda p{
+        font-size: 20px;
+    }
+
+    .formularioIzquierda h3{
+        font-size: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:431px){
+    .contactoPagina h3{
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:379px){
+    .contactoPagina h3{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .contactoPagina h2{
+        font-size: 90px;
+    }
+}
+
 
 /*-------------------------------------------PRODUCTOS-----------------------------*/
 
@@ -1759,11 +1901,6 @@ input:focus{
     height: 400px;
     max-width: 100%;
     background-color: white;
-    /* display: grid;
-    grid-template-columns:;
-    grid-auto-rows: 350px;
-    padding: 20px; */
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1783,12 +1920,6 @@ input:focus{
     -moz-box-shadow: 11px 14px 17px -3px rgba(0,0,0,1);
     border-radius: 20px;
 }
-
-/* .mario-mari{
-    grid-column: span 2;
-    grid-row: span 2;
-    grid-area: span 2;
-} */
 
 
 /*!--------------MEDIA QUERY--------------------*/
@@ -1846,11 +1977,6 @@ input:focus{
         height: 800px;
         max-width: 100%;
         background-color: white;
-        /* display: grid;
-        grid-template-columns:;
-        grid-auto-rows: 350px;
-        padding: 20px; */
-    
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -1921,6 +2047,7 @@ input:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .tienda h2{
@@ -1932,12 +2059,14 @@ input:focus{
     
 .tienda ol{
     color:black;
+    width: 100%;
     font-size: 25px;
-    padding: 40px;
+    padding: 20px 100px 20px;
     font-family: 'Indie Flower', cursive;
     background-color: #d4b562;
     font-style: italic;
-    height: 500px;
+    height: 400px;
+    margin: 10px;
     }
 
 .ecomerce{
@@ -1946,4 +2075,91 @@ input:focus{
     width: 100%;
     height: 50vh;
     font-size: 20px;
+}
+
+
+/*!--------------- MEDIA QUERY -------------*/
+
+@media screen and (max-width:845px){
+    .tienda ol{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .tienda ol{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:623px){
+    .tienda ol{
+        height: 570px;
+    }
+}
+
+@media screen and (max-width:619px){
+    .tienda ol{
+        height: 520px;
+        font-size: 23px;
+    }
+
+    .tienda h2{
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width:587px){
+    .tienda ol{
+        height: 600px;
+    }
+
+    .tienda h2{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:531px){
+    .tienda ol{
+        font-size: 21px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .tienda ol{
+        font-size: 19px;
+        height: 650px;
+    }
+
+    .tienda h2{
+        font-size: 90px;
+    }
+}
+
+
+@media screen and (max-width:421px){
+    .tienda ol{
+        font-size: 17px;
+        height: 560px;
+    }
+
+    .tienda h2{
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width:399px){
+    .tienda ol{
+        font-size: 15px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:399px){
+    .tienda ol{
+        font-size: 14px;
+        height: 500px;
+    }
 }
