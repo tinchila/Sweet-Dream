@@ -1,3 +1,5 @@
+
+
 .hero{
 	color: $color-primario;
 	text-align: center;
@@ -16,12 +18,14 @@
 		font-style: italic;
 		font-family: $font-family_primaria_cursiva;
 	}
+
 	h2{
 		color: $color-primario;
 		font-size: nth($font-size, 13);
 		padding: 20px;
 		font-family: $font-family_secundaria;
 	}
+
 	a{
 		text-decoration: none;
 		color: $color-primario;
@@ -36,6 +40,7 @@
 		}
 	}
 }
+
 .dream{
 	@extend %flex-colum;
 	h2{
@@ -44,6 +49,7 @@
 		padding: 20px;
 		font-family: $font-family_secundaria;
 	}
+
 	h3{
 		margin-bottom: 20px;
 		color: $color-secundario;
@@ -53,6 +59,7 @@
 		font-family: $font-family_primaria_cursiva;
 	}
 }
+
 .calidad{
 	color: $color-primario;
 	text-align: center;
@@ -69,6 +76,7 @@
 		font-family: $font-family_secundaria;
 	}
 }
+
 .calidad-imagen{
 	color: $color-primario;
 	background-image: url("../img/calidad3.png");
@@ -77,6 +85,7 @@
 	height: 350px;
 	width: 750px;
 }
+
 .productos{
 	color: $color-primario;
     @extend %flex-colum;
@@ -98,9 +107,9 @@
 		}
 		a{
 			text-decoration: none;
-			color: $color-primario;
-			font-weight: bold;
-			background-color: $font-family_primaria_cursiva;
+		    color: $color-primario;
+		    font-weight: bold;
+		    background-color: $background-terciario;
 			padding: 5px 10px;
 			display: inline-block;
 			transition: 1s;
@@ -114,6 +123,7 @@
 			height: 250px;
 		}
 	}
+
 	h2{
 		color: $color-secundario;
 		font-size: nth($font-size, 13);
@@ -121,6 +131,7 @@
 		max-width: 100%;
 	}
 }
+
 .cajasUno{
 	@extend %flex;
 	padding: 100px;
@@ -144,6 +155,7 @@
 		}
 	}
 }
+
 .cajasDos{
 	@extend %flex;
 	padding: 100px;
@@ -167,6 +179,7 @@
 		}
 	}
 }
+
 .contacto{
 	color: $color-primario;
 	max-width: 100%;
@@ -182,6 +195,7 @@
 		font-family: $font-family_primaria_cursiva;
 		width: 75%;
 	}
+
 	h2{
 		color: $color-secundario;
 		font-size: nth($font-size, 13);
@@ -193,6 +207,7 @@
 		justify-content: center;
 		align-items: center;
 	}
+
 	a{
 		text-decoration: none;
 		color: $color-primario;
@@ -218,6 +233,7 @@
 		padding: 20px;
 		font-family: $font-family_primaria;
 	}
+
 	h3 {
 		margin-bottom: 20px;
 		color: $color-secundario;
@@ -227,6 +243,7 @@
 		padding: 10px 230px;
 	}
 }
+
 .formulario {
     @include flex (flex, space-between, center);
 	flex-direction: row-reverse;
@@ -234,6 +251,7 @@
 	color: $color-terciario;
 	font-family: $font-family_primaria_cursiva;
 }
+
 .formularioIzquierda {
 	font-size: nth($font-size, 6);
 	margin: 20px;
@@ -249,25 +267,32 @@
 			font-family: $font-family_primaria_cursiva;
 		}
 	}
+
 	h3 {
 		font-size: nth($font-size, 9);
 	}
+
 	p {
 		font-size: nth($font-size, 5);
 	}
 }
+
 .ubicacion {
-	@extend %flex-contacto;
+	@include flex (flex, space-evenly, center);
 }
+
 .email {
-	@extend %flex-contacto;
+	@include flex (flex, space-evenly, center);
 }
+
 .telefono {
-	@extend %flex-contacto;
+	@include flex (flex, space-evenly, center);
 }
+
 .horario {
-    @extend %flex-contacto;
+	@include flex (flex, space-evenly, center);
 }
+
 .formularioDerecha {
 	font-size: 18px;
 	margin: 20px;
@@ -275,24 +300,29 @@
 	width: 100%;
 	font-family: $font-family_primaria_cursiva;
 }
+
 .name {
 	font-size: nth($font-size, 4);
 }
+
 .direccion {
 	@extend %flex-colum;
 	height: 550px;
 	width: 100%;
 }
+
 .mapa {
 	position: relative;
 	overflow: hidden;
 }
+
 input {
 	&:focus {
 		border-radius: 5px;
 		border: 1px solid #3d210f;
 	}
 }
+
 .produccion {
 	@extend %flex-colum;
 	max-width: 100%;
@@ -317,6 +347,7 @@ input {
 		}
 	}
 }
+
 .container-produccion {
 	@extend %flex-colum;
 	div {
@@ -331,6 +362,7 @@ input {
 			box-shadow: 5px 8px 12px black;
 		}
 	}
+
 	p {
 		font-size: nth($font-size, 4);
 		max-width: 100%;
@@ -344,6 +376,7 @@ input {
 		background-size: cover;
 	}
 }
+
 .Alfajores {
 	@extend %flex-colum;
 	position: relative;
@@ -358,6 +391,7 @@ input {
 		margin-bottom: 10px;
 	}
 }
+
 .container-alfajores {
 	background-color: $background-primario;
 	width: 100%;
@@ -366,6 +400,7 @@ input {
 	padding-top: 20px;
     @extend %flex-colum;
 }
+
 .imagenes-alfajores {
 	background-color: $background-secundario;
 	width: 100%;
@@ -375,6 +410,7 @@ input {
 	padding-bottom: 20px;
 	@extend %flex-space;
 }
+
 .Bombones {
 	@extend %flex-colum;
 	position: relative;
@@ -390,6 +426,7 @@ input {
 		margin-top: 5px;
 	}
 }
+
 .container-bombones {
 	background-color: $background-primario;
 	width: 100%;
@@ -398,6 +435,7 @@ input {
 	padding-top: 20px;
 	@extend %flex-colum;
 }
+
 .imagenes-bombones {
 	background-color: $background-secundario;
 	width: 100%;
@@ -407,6 +445,7 @@ input {
 	padding-bottom: 20px;
 	@extend %flex-space;
 }
+
 .Chocolates {
 	@extend %flex-colum;
 	position: relative;
@@ -422,6 +461,7 @@ input {
 		margin-top: 5px;
 	}
 }
+
 .container-chocolates {
 	background-color: $background-primario;
 	width: 100%;
@@ -430,6 +470,7 @@ input {
 	padding-top: 20px;
 	@extend %flex-colum;
 }
+
 .imagenes-chocolates {
 	background-color: $background-secundario;
 	display: grid;
@@ -448,6 +489,7 @@ input {
 		}
 	}
 }
+
 .Huevos {
 	@extend %flex-colum;
 	position: relative;
@@ -463,6 +505,7 @@ input {
 		margin-top: 5px;
 	}
 }
+
 .container-huevos {
 	background-color: $background-primario;
 	width: 100%;
@@ -471,6 +514,7 @@ input {
 	padding-top: 20px;
 	@extend %flex-colum;
 }
+
 .imagenes-huevos {
 	background-color: $background-secundario;
 	width: 100%;
@@ -480,6 +524,7 @@ input {
 	padding-bottom: 20px;
 	@extend %flex-space;
 }
+
 .Pan {
 	@extend %flex-colum;
 	position: relative;
@@ -495,6 +540,7 @@ input {
 		margin-top: 5px;
 	}
 }
+
 .container-panes {
 	background-color: $background-primario;
 	width: 100%;
@@ -503,6 +549,7 @@ input {
 	padding-top: 20px;
 	@extend %flex-colum;
 }
+
 .imagenes-panes {
 	background-color: $background-secundario;
 	width: 100%;
@@ -512,6 +559,7 @@ input {
 	padding-bottom: 20px;
 	@extend %flex-space;
 }
+
 .Regalos {
 	@extend %flex-colum;
 	position: relative;
@@ -527,6 +575,7 @@ input {
 		margin-bottom: 70px;
 	}
 }
+
 .container-regalos {
 	background-color: $background-primario;
 	width: 100%;
@@ -535,6 +584,7 @@ input {
 	padding-top: 20px;
 	@extend %flex-colum;
 }
+
 .imagenes-empresariales {
 	background-color: $background-secundario;
 	display: grid;
@@ -552,6 +602,7 @@ input {
 		}
 	}
 }
+
 .video {
 	max-width: 100%;
 	@extend %flex-colum;
@@ -564,15 +615,18 @@ input {
 		font-family: $font-family_primaria_cursiva;
 	}
 }
+
 .video1 {
 	width: 560px;
 	height: 315px;
 }
+
 .history {
 	max-width: 100%;
 	width: 100%;
 	height: 100%;
 }
+
 .historia {
 	background-size: cover;
 	background-color: $background-secundario;
@@ -588,6 +642,7 @@ input {
 		margin: 20px;
 		font-family: $font-family_primaria;
 	}
+
 	p {
 		margin: 10px;
 		max-width: 80%;
@@ -600,6 +655,7 @@ input {
 		font-family: $font-family_primaria_cursiva;
 	}
 }
+
 .grid-historia {
 	height: 400px;
 	max-width: 100%;
@@ -607,6 +663,7 @@ input {
 	@include flex (flex, space-evenly, center);
 	flex-direction: row;
 }
+
 .grid-history {
 	div {
 		img {
@@ -615,6 +672,7 @@ input {
 			object-fit: cover;
 		}
 	}
+
 	img {
 		box-shadow: 11px 14px 17px -3px rgba(0,0,0,1);
 		-webkit-box-shadow: 11px 14px 17px -3px rgba(0,0,0,1);
@@ -622,6 +680,7 @@ input {
 		border-radius: 20px;
 	}
 }
+
 .tienda {
 	color: $color-secundario;
 	@extend %flex-colum;
@@ -632,6 +691,7 @@ input {
 		padding: 20px;
 		font-family: $font-family_primaria;
 	}
+
 	ol {
 		color: $color-secundario;
 		width: 100%;
@@ -644,6 +704,7 @@ input {
 		margin: 10px;
 	}
 }
+
 .ecomerce {
 	background-color: $background-cuaternario;
 	padding: 20px;

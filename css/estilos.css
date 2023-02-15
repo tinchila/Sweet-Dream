@@ -20,15 +20,704 @@
   align-items: center;
   flex-direction: row; }
 
-.ubicacion, .email, .telefono, .horario {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .imagenes-alfajores, .imagenes-bombones, .imagenes-huevos, .imagenes-panes {
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+header {
+  background-color: #3d210f;
+  position: static;
+  top: 0;
+  bottom: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 155px;
+  width: 100%; }
+  header h1 {
+    font-size: 65px;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    margin: 10px;
+    width: 100%; }
+  header a {
+    text-decoration: none; }
+  header nav {
+    background-color: #3d210f; }
+    header nav div div ul li .nav-item {
+      transition: 0.5s;
+      font-family: "Indie Flower", cursive;
+      font-size: 17px; }
+      header nav div div ul li .nav-item:hover {
+        color: #e86686; }
+      header nav div div ul li .nav-item a img {
+        width: 100%;
+        height: 100px;
+        border-radius: 100%;
+        padding-right: 10px; }
+    header nav div form .boton {
+      border: 1px solid #d4b562;
+      color: white;
+      transition: 0.5s;
+      font-family: "Indie Flower", cursive;
+      font-size: 17px; }
+      header nav div form .boton:hover {
+        color: #e86686; }
+
+.hero {
+  color: white;
+  text-align: center;
+  background-image: url("../img/herofondo3.png");
+  max-width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .hero p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Indie Flower", cursive; }
+  .hero h2 {
+    color: white;
+    font-size: 70px;
+    padding: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .hero a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    transition: 1s;
+    font-family: "Indie Flower", cursive; }
+    .hero a:hover {
+      color: #e86686; }
+
+.dream h2 {
+  color: black;
+  font-size: 70px;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.dream h3 {
+  margin-bottom: 20px;
+  color: black;
+  width: 80%;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive; }
+
+.calidad {
+  color: white;
+  text-align: center;
+  background-color: #3d210f;
+  max-width: 100%;
+  height: 350px; }
+  .calidad h2 {
+    color: white;
+    font-size: 70px;
+    padding: 20px;
+    width: 100%;
+    background-color: #3d210f;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.calidad-imagen {
+  color: white;
+  background-image: url("../img/calidad3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 750px; }
+
+.productos {
+  color: white;
+  padding: 20px;
+  max-width: 100%;
+  height: 850px; }
+  .productos div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    height: 350px; }
+    .productos div div {
+      border: 1px solid gray;
+      max-width: 250px;
+      height: 350px;
+      margin: 10px;
+      text-align: center; }
+    .productos div a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: black;
+      padding: 5px 10px;
+      display: inline-block;
+      transition: 1s;
+      font-family: "Indie Flower", cursive; }
+      .productos div a:hover {
+        color: #e86686; }
+    .productos div img {
+      max-width: 250px;
+      height: 250px; }
+  .productos h2 {
+    color: black;
+    font-size: 70px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    max-width: 100%; }
+
+.cajasUno {
+  padding: 100px;
+  max-width: 100%;
+  height: 150vh;
+  margin: 10px;
+  transition: 2s; }
+  .cajasUno div {
+    box-shadow: 11px 14px 17px -3px black;
+    -webkit-box-shadow: 11px 14px 17px -3px black;
+    -moz-box-shadow: 11px 14px 17px -3px black; }
+    .cajasUno div:hover {
+      transform: scale(1.07); }
+    .cajasUno div h3 {
+      color: black;
+      font-size: 40px;
+      padding: 20px;
+      font-family: "Indie Flower", cursive;
+      font-style: oblique; }
+
+.cajasDos {
+  padding: 100px;
+  max-width: 100%;
+  height: 150vh;
+  margin: 10px;
+  transition: 2s; }
+  .cajasDos div {
+    box-shadow: 11px 14px 17px -3px black;
+    -webkit-box-shadow: 11px 14px 17px -3px black;
+    -moz-box-shadow: 11px 14px 17px -3px black; }
+    .cajasDos div:hover {
+      transform: scale(1.07); }
+    .cajasDos div h3 {
+      color: black;
+      font-size: 35px;
+      padding: 20px;
+      font-style: oblique;
+      font-family: "Indie Flower", cursive; }
+
+.contacto {
+  color: white;
+  max-width: 100%;
+  height: 250px;
+  background-color: #d4b562; }
+  .contacto p {
+    margin: 5px;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+    padding: 5px;
+    font-family: "Indie Flower", cursive;
+    width: 75%; }
+  .contacto h2 {
+    color: black;
+    font-size: 70px;
+    padding: 5px;
+    max-width: 100%;
+    height: 70px;
+    margin: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    justify-content: center;
+    align-items: center; }
+  .contacto a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    font-family: "Indie Flower", cursive; }
+    .contacto a:hover {
+      color: #e86686; }
+
+.contactoPagina h2 {
+  color: black;
+  font-size: 120px;
+  padding: 20px;
+  font-family: "Dancing Script"; }
+
+.contactoPagina h3 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  width: 100%;
+  padding: 10px 230px; }
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #d4b562;
+  color: #3d210f;
+  font-family: "Indie Flower", cursive; }
+
+.formularioIzquierda {
+  font-size: 35px;
+  margin: 20px;
+  padding: 30px;
+  width: 100%;
+  font-family: "Indie Flower", cursive;
+  color: #3d210f;
+  font-style: inherit; }
+  .formularioIzquierda div i {
+    font-size: 50px;
+    color: #3d210f;
+    font-family: "Indie Flower", cursive; }
+  .formularioIzquierda h3 {
+    font-size: 50px; }
+  .formularioIzquierda p {
+    font-size: 30px; }
+
+.ubicacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.email {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.telefono {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.horario {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.formularioDerecha {
+  font-size: 18px;
+  margin: 20px;
+  padding: 30px;
+  width: 100%;
+  font-family: "Indie Flower", cursive; }
+
+.name {
+  font-size: 25px; }
+
+.direccion {
+  height: 550px;
+  width: 100%; }
+
+.mapa {
+  position: relative;
+  overflow: hidden; }
+
+input:focus {
+  border-radius: 5px;
+  border: 1px solid #3d210f; }
+
+.produccion {
+  max-width: 100%; }
+  .produccion div h2 {
+    color: black;
+    font-size: 70px;
+    padding: 20px;
+    font-family: "Dancing Script"; }
+  .produccion div p {
+    color: black;
+    font-size: 10px;
+    padding: 20px;
+    font-style: italic;
+    font-family: "Indie Flower", cursive;
+    background-color: #d4b562;
+    background-size: cover; }
+  .produccion div img {
+    max-width: 100%; }
+
+.container-produccion div img {
+  width: 500px;
+  height: 400px;
+  object-fit: inherit;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black; }
+
+.container-produccion p {
+  font-size: 25px;
+  max-width: 100%;
+  height: 100%;
+  color: black;
+  padding: 10px 200px 0px 200px;
+  margin-bottom: 0px;
+  font-style: italic;
+  font-family: "Indie Flower", cursive;
+  background-color: #d4b562;
+  background-size: cover; }
+
+.Alfajores {
+  position: relative;
+  height: 50%;
+  width: 100%; }
+  .Alfajores h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 20px;
+    font-family: "Dancing Script";
+    margin-top: 5px;
+    margin-bottom: 10px; }
+
+.container-alfajores {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-alfajores {
+  background-color: #d4b562;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+
+.Bombones {
+  position: relative;
+  height: 50%;
+  width: 100%; }
+  .Bombones h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 10px;
+    font-family: "Dancing Script";
+    height: 20px;
+    margin-bottom: 70px;
+    margin-top: 5px; }
+
+.container-bombones {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-bombones {
+  background-color: #d4b562;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+
+.Chocolates {
+  position: relative;
+  height: 60%;
+  width: 100%; }
+  .Chocolates h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 10px;
+    font-family: "Dancing Script";
+    height: 20px;
+    margin-bottom: 70px;
+    margin-top: 5px; }
+
+.container-chocolates {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-chocolates {
+  background-color: #d4b562;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-rows: 250px;
+  width: 100%;
+  gap: 10px;
+  height: 900px;
+  padding: 20px; }
+  .imagenes-chocolates div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.Huevos {
+  position: relative;
+  height: 50%;
+  width: 100%; }
+  .Huevos h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 10px;
+    font-family: "Dancing Script";
+    height: 20px;
+    margin-bottom: 70px;
+    margin-top: 5px; }
+
+.container-huevos {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-huevos {
+  background-color: #d4b562;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+
+.Pan {
+  position: relative;
+  height: 50%;
+  width: 100%; }
+  .Pan h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 10px;
+    font-family: "Dancing Script";
+    height: 20px;
+    margin-bottom: 70px;
+    margin-top: 5px; }
+
+.container-panes {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-panes {
+  background-color: #d4b562;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+
+.Regalos {
+  position: relative;
+  height: 80%;
+  width: 100%; }
+  .Regalos h2 {
+    color: black;
+    font-size: 70px;
+    padding: 0px 10px;
+    font-family: "Dancing Script";
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 70px; }
+
+.container-regalos {
+  background-color: #3d210f;
+  width: 100%;
+  height: 450px;
+  margin-top: 10px;
+  padding-top: 20px; }
+
+.imagenes-empresariales {
+  background-color: #d4b562;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 2fr);
+  grid-auto-rows: 350px;
+  width: 100%;
+  gap: 30px;
+  padding: 20px; }
+  .imagenes-empresariales div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.video {
+  max-width: 100%;
+  padding: 40px; }
+  .video h2 {
+    color: black;
+    font-size: 50px;
+    padding: 20px;
+    width: 100%;
+    font-family: "Indie Flower", cursive; }
+
+.video1 {
+  width: 560px;
+  height: 315px; }
+
+.history {
+  max-width: 100%;
+  width: 100%;
+  height: 100%; }
+
+.historia {
+  background-size: cover;
+  background-color: #d4b562;
+  max-width: 100%; }
+  .historia h2 {
+    color: black;
+    background-color: #d4b562;
+    background-size: cover;
+    font-size: 70px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px;
+    font-family: "Dancing Script"; }
+  .historia p {
+    margin: 10px;
+    max-width: 80%;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+    background-color: #d4b562;
+    background-size: cover;
+    font-family: "Indie Flower", cursive; }
+
+.grid-historia {
+  height: 400px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row; }
+
+.grid-history div img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover; }
+
+.grid-history img {
+  box-shadow: 11px 14px 17px -3px black;
+  -webkit-box-shadow: 11px 14px 17px -3px black;
+  -moz-box-shadow: 11px 14px 17px -3px black;
+  border-radius: 20px; }
+
+.tienda {
+  color: black;
+  width: 100%; }
+  .tienda h2 {
+    color: black;
+    font-size: 120px;
+    padding: 20px;
+    font-family: "Dancing Script"; }
+  .tienda ol {
+    color: black;
+    width: 100%;
+    font-size: 25px;
+    padding: 20px 100px 20px;
+    font-family: "Indie Flower", cursive;
+    background-color: #d4b562;
+    font-style: italic;
+    height: 400px;
+    margin: 10px; }
+
+.ecomerce {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  height: 50vh;
+  font-size: 20px; }
+
+.pie {
+  max-width: 100%;
+  background: #3d210f;
+  height: 130px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 10;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: inherit;
+  flex-direction: row-reverse; }
+
+.footerDerecha {
+  background-color: #3d210f;
+  box-sizing: border-box;
+  font: normal 16px sans-serif;
+  margin: 5px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footerDerecha img {
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 15px; }
+
+.footerIzquierda {
+  background-color: #3d210f;
+  position: static;
+  margin-top: 25px;
+  bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footerIzquierda img {
+    color: white;
+    width: 100%;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+
+.copyright {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  font-family: font-family_secundaria;
+  width: 100%;
+  height: 100%;
+  margin-left: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.footerIzq {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row; }
+
+.logo-instagram {
+  transition: 2s; }
+  .logo-instagram:hover {
+    transform: scale(1.3); }
+
+.logo-facebook {
+  transition: 2s; }
+  .logo-facebook:hover {
+    transform: scale(1.3); }
+
+.logo-whatsapp {
+  transition: 2s; }
+  .logo-whatsapp:hover {
+    transform: scale(1.3); }
 
 @media screen and (max-width: 1045px) {
   header h1 {
@@ -137,16 +826,16 @@
   .footerDerecha img {
     color: white;
     width: 40px;
-    height: 35px;
+    height: 40px;
     margin: 15px; }
   .footerIzquierda img {
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin-left: 50px;
     margin-bottom: 15px; }
   .pie {
     max-width: 100%;
-    height: 130px; }
+    height: 140px; }
   .cajasUno {
     width: 100%;
     margin: 10px; }
@@ -267,7 +956,7 @@
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    height: 250px;
+    height: 300px;
     width: 100%; }
   .footerIzquierda img {
     width: 100%;
@@ -863,7 +1552,7 @@
     font-size: 100px; } }
 
 @media screen and (max-width: 531px) {
-  .tienda o {
+  .tienda ol {
     font-size: 21px;
     height: 650px; } }
 
@@ -887,675 +1576,3 @@
     height: 500px;
     font-size: 14px;
     height: 500px; } }
-
-header {
-  background-color: #3d210f;
-  position: static;
-  top: 0;
-  bottom: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 155px;
-  width: 100%; }
-  header h1 {
-    font-size: 65px;
-    padding: 10px;
-    font-family: "Dancing Script", cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: white;
-    margin: 10px;
-    width: 100%; }
-  header a {
-    text-decoration: none; }
-  header nav {
-    background-color: #3d210f; }
-    header nav div div ul li .nav-item {
-      transition: 0.5s;
-      font-family: "Indie Flower", cursive;
-      font-size: 17px; }
-      header nav div div ul li .nav-item:hover {
-        color: #e86686; }
-      header nav div div ul li .nav-item a img {
-        width: 100%;
-        height: 100px;
-        border-radius: 100%;
-        padding-right: 10px; }
-    header nav div form .boton {
-      border: 1px solid #d4b562;
-      color: white;
-      transition: 0.5s;
-      font-family: "Indie Flower", cursive;
-      font-size: 17px; }
-      header nav div form .boton:hover {
-        color: #e86686; }
-
-.hero {
-  color: white;
-  text-align: center;
-  background-image: url("../img/herofondo3.png");
-  max-width: 100%;
-  height: 80vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-  .hero p {
-    margin-bottom: 20px;
-    color: white;
-    font-size: 25px;
-    font-style: italic;
-    font-family: "Indie Flower", cursive; }
-  .hero h2 {
-    color: white;
-    font-size: 70px;
-    padding: 20px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-  .hero a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    background-color: black;
-    padding: 5px 10px;
-    border: 1px solid gray;
-    transition: 1s;
-    font-family: "Indie Flower", cursive; }
-    .hero a:hover {
-      color: #e86686; }
-
-.dream h2 {
-  color: black;
-  font-size: 70px;
-  padding: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-
-.dream h3 {
-  margin-bottom: 20px;
-  color: black;
-  width: 80%;
-  padding: 20px;
-  font-size: 30px;
-  font-family: "Indie Flower", cursive; }
-
-.calidad {
-  color: white;
-  text-align: center;
-  background-color: #3d210f;
-  max-width: 100%;
-  height: 350px; }
-  .calidad h2 {
-    color: white;
-    font-size: 70px;
-    padding: 20px;
-    width: 100%;
-    background-color: #3d210f;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-
-.calidad-imagen {
-  color: white;
-  background-image: url("../img/calidad3.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 750px; }
-
-.productos {
-  color: white;
-  padding: 20px;
-  max-width: 100%;
-  height: 850px; }
-  .productos div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    max-width: 100%;
-    height: 350px; }
-    .productos div div {
-      border: 1px solid gray;
-      max-width: 250px;
-      height: 350px;
-      margin: 10px;
-      text-align: center; }
-    .productos div a {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      background-color: "Indie Flower", cursive;
-      padding: 5px 10px;
-      display: inline-block;
-      transition: 1s;
-      font-family: "Indie Flower", cursive; }
-      .productos div a:hover {
-        color: #e86686; }
-    .productos div img {
-      max-width: 250px;
-      height: 250px; }
-  .productos h2 {
-    color: black;
-    font-size: 70px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    max-width: 100%; }
-
-.cajasUno {
-  padding: 100px;
-  max-width: 100%;
-  height: 150vh;
-  margin: 10px;
-  transition: 2s; }
-  .cajasUno div {
-    box-shadow: 11px 14px 17px -3px black;
-    -webkit-box-shadow: 11px 14px 17px -3px black;
-    -moz-box-shadow: 11px 14px 17px -3px black; }
-    .cajasUno div:hover {
-      transform: scale(1.07); }
-    .cajasUno div h3 {
-      color: black;
-      font-size: 40px;
-      padding: 20px;
-      font-family: "Indie Flower", cursive;
-      font-style: oblique; }
-
-.cajasDos {
-  padding: 100px;
-  max-width: 100%;
-  height: 150vh;
-  margin: 10px;
-  transition: 2s; }
-  .cajasDos div {
-    box-shadow: 11px 14px 17px -3px black;
-    -webkit-box-shadow: 11px 14px 17px -3px black;
-    -moz-box-shadow: 11px 14px 17px -3px black; }
-    .cajasDos div:hover {
-      transform: scale(1.07); }
-    .cajasDos div h3 {
-      color: black;
-      font-size: 35px;
-      padding: 20px;
-      font-style: oblique;
-      font-family: "Indie Flower", cursive; }
-
-.contacto {
-  color: white;
-  max-width: 100%;
-  height: 250px;
-  background-color: #d4b562; }
-  .contacto p {
-    margin: 5px;
-    color: black;
-    font-size: 25px;
-    font-style: italic;
-    padding: 5px;
-    font-family: "Indie Flower", cursive;
-    width: 75%; }
-  .contacto h2 {
-    color: black;
-    font-size: 70px;
-    padding: 5px;
-    max-width: 100%;
-    height: 70px;
-    margin: 10px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    justify-content: center;
-    align-items: center; }
-  .contacto a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    background-color: black;
-    padding: 5px 10px;
-    border: 1px solid gray;
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-    font-family: "Indie Flower", cursive; }
-    .contacto a:hover {
-      color: #e86686; }
-
-.contactoPagina h2 {
-  color: black;
-  font-size: 120px;
-  padding: 20px;
-  font-family: "Dancing Script"; }
-
-.contactoPagina h3 {
-  margin-bottom: 20px;
-  color: black;
-  font-size: 25px;
-  font-family: "Indie Flower", cursive;
-  width: 100%;
-  padding: 10px 230px; }
-
-.formulario {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row-reverse;
-  background-color: #d4b562;
-  color: #3d210f;
-  font-family: "Indie Flower", cursive; }
-
-.formularioIzquierda {
-  font-size: 35px;
-  margin: 20px;
-  padding: 30px;
-  width: 100%;
-  font-family: "Indie Flower", cursive;
-  color: #3d210f;
-  font-style: inherit; }
-  .formularioIzquierda div i {
-    font-size: 50px;
-    color: #3d210f;
-    font-family: "Indie Flower", cursive; }
-  .formularioIzquierda h3 {
-    font-size: 50px; }
-  .formularioIzquierda p {
-    font-size: 30px; }
-
-.formularioDerecha {
-  font-size: 18px;
-  margin: 20px;
-  padding: 30px;
-  width: 100%;
-  font-family: "Indie Flower", cursive; }
-
-.name {
-  font-size: 25px; }
-
-.direccion {
-  height: 550px;
-  width: 100%; }
-
-.mapa {
-  position: relative;
-  overflow: hidden; }
-
-input:focus {
-  border-radius: 5px;
-  border: 1px solid #3d210f; }
-
-.produccion {
-  max-width: 100%; }
-  .produccion div h2 {
-    color: black;
-    font-size: 70px;
-    padding: 20px;
-    font-family: "Dancing Script"; }
-  .produccion div p {
-    color: black;
-    font-size: 10px;
-    padding: 20px;
-    font-style: italic;
-    font-family: "Indie Flower", cursive;
-    background-color: #d4b562;
-    background-size: cover; }
-  .produccion div img {
-    max-width: 100%; }
-
-.container-produccion div img {
-  width: 500px;
-  height: 400px;
-  object-fit: inherit;
-  overflow: hidden;
-  position: relative;
-  margin: 0px;
-  border-radius: 20px;
-  box-shadow: 5px 8px 12px black; }
-
-.container-produccion p {
-  font-size: 25px;
-  max-width: 100%;
-  height: 100%;
-  color: black;
-  padding: 10px 200px 0px 200px;
-  margin-bottom: 0px;
-  font-style: italic;
-  font-family: "Indie Flower", cursive;
-  background-color: #d4b562;
-  background-size: cover; }
-
-.Alfajores {
-  position: relative;
-  height: 50%;
-  width: 100%; }
-  .Alfajores h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 20px;
-    font-family: "Dancing Script";
-    margin-top: 5px;
-    margin-bottom: 10px; }
-
-.container-alfajores {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-alfajores {
-  background-color: #d4b562;
-  width: 100%;
-  padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px; }
-
-.Bombones {
-  position: relative;
-  height: 50%;
-  width: 100%; }
-  .Bombones h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 10px;
-    font-family: "Dancing Script";
-    height: 20px;
-    margin-bottom: 70px;
-    margin-top: 5px; }
-
-.container-bombones {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-bombones {
-  background-color: #d4b562;
-  width: 100%;
-  padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px; }
-
-.Chocolates {
-  position: relative;
-  height: 60%;
-  width: 100%; }
-  .Chocolates h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 10px;
-    font-family: "Dancing Script";
-    height: 20px;
-    margin-bottom: 70px;
-    margin-top: 5px; }
-
-.container-chocolates {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-chocolates {
-  background-color: #d4b562;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-auto-rows: 250px;
-  width: 100%;
-  gap: 10px;
-  height: 900px;
-  padding: 20px; }
-  .imagenes-chocolates div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-.Huevos {
-  position: relative;
-  height: 50%;
-  width: 100%; }
-  .Huevos h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 10px;
-    font-family: "Dancing Script";
-    height: 20px;
-    margin-bottom: 70px;
-    margin-top: 5px; }
-
-.container-huevos {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-huevos {
-  background-color: #d4b562;
-  width: 100%;
-  padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px; }
-
-.Pan {
-  position: relative;
-  height: 50%;
-  width: 100%; }
-  .Pan h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 10px;
-    font-family: "Dancing Script";
-    height: 20px;
-    margin-bottom: 70px;
-    margin-top: 5px; }
-
-.container-panes {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-panes {
-  background-color: #d4b562;
-  width: 100%;
-  padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px; }
-
-.Regalos {
-  position: relative;
-  height: 80%;
-  width: 100%; }
-  .Regalos h2 {
-    color: black;
-    font-size: 70px;
-    padding: 0px 10px;
-    font-family: "Dancing Script";
-    height: 20px;
-    margin-top: 5px;
-    margin-bottom: 70px; }
-
-.container-regalos {
-  background-color: #3d210f;
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  padding-top: 20px; }
-
-.imagenes-empresariales {
-  background-color: #d4b562;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 2fr);
-  grid-auto-rows: 350px;
-  width: 100%;
-  gap: 30px;
-  padding: 20px; }
-  .imagenes-empresariales div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
-
-.video {
-  max-width: 100%;
-  padding: 40px; }
-  .video h2 {
-    color: black;
-    font-size: 50px;
-    padding: 20px;
-    width: 100%;
-    font-family: "Indie Flower", cursive; }
-
-.video1 {
-  width: 560px;
-  height: 315px; }
-
-.history {
-  max-width: 100%;
-  width: 100%;
-  height: 100%; }
-
-.historia {
-  background-size: cover;
-  background-color: #d4b562;
-  max-width: 100%; }
-  .historia h2 {
-    color: black;
-    background-color: #d4b562;
-    background-size: cover;
-    font-size: 70px;
-    padding: 10px;
-    width: 80%;
-    margin: 20px;
-    font-family: "Dancing Script"; }
-  .historia p {
-    margin: 10px;
-    max-width: 80%;
-    color: black;
-    font-size: 20px;
-    padding: 10px;
-    font-style: italic;
-    background-color: #d4b562;
-    background-size: cover;
-    font-family: "Indie Flower", cursive; }
-
-.grid-historia {
-  height: 400px;
-  max-width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row; }
-
-.grid-history div img {
-  width: 350px;
-  height: 350px;
-  object-fit: cover; }
-
-.grid-history img {
-  box-shadow: 11px 14px 17px -3px black;
-  -webkit-box-shadow: 11px 14px 17px -3px black;
-  -moz-box-shadow: 11px 14px 17px -3px black;
-  border-radius: 20px; }
-
-.tienda {
-  color: black;
-  width: 100%; }
-  .tienda h2 {
-    color: black;
-    font-size: 120px;
-    padding: 20px;
-    font-family: "Dancing Script"; }
-  .tienda ol {
-    color: black;
-    width: 100%;
-    font-size: 25px;
-    padding: 20px 100px 20px;
-    font-family: "Indie Flower", cursive;
-    background-color: #d4b562;
-    font-style: italic;
-    height: 400px;
-    margin: 10px; }
-
-.ecomerce {
-  background-color: white;
-  padding: 20px;
-  width: 100%;
-  height: 50vh;
-  font-size: 20px; }
-
-.pie {
-  max-width: 100%;
-  background: #3d210f;
-  height: 130px;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 10;
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-grow: inherit;
-  flex-direction: row-reverse; }
-
-.footerDerecha {
-  background-color: #3d210f;
-  box-sizing: border-box;
-  font: normal 16px sans-serif;
-  margin: 5px;
-  height: 110px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .footerDerecha img {
-    color: white;
-    width: 45px;
-    height: 45px;
-    margin: 15px; }
-
-.footerIzquierda {
-  background-color: #3d210f;
-  position: static;
-  top: 0;
-  bottom: auto; }
-  .footerIzquierda img {
-    color: white;
-    width: 100%;
-    height: 90px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    justify-content: left;
-    align-items: baseline; }
-
-.copyright {
-  color: white;
-  font-size: 15px;
-  padding: 10px;
-  font-family: font-family_secundaria;
-  width: 100%;
-  height: 100%;
-  margin-left: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
-
-.footerIzq {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-direction: row; }
-
-.logo-instagram {
-  transition: 2s; }
-  .logo-instagram:hover {
-    transform: scale(1.3); }
-
-.logo-facebook {
-  transition: 2s; }
-  .logo-facebook:hover {
-    transform: scale(1.3); }
-
-.logo-whatsapp {
-  transition: 2s; }
-  .logo-whatsapp:hover {
-    transform: scale(1.3); }

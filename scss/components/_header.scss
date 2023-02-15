@@ -16,9 +16,11 @@ header{
 		margin: 10px;
 		width: 100%;
 	}
+
 	a{
 		text-decoration: none;
 	}
+
 	nav{
         background-color: $background-primario;
 		div{
@@ -43,7 +45,7 @@ header{
                     }
                 }
             }
-        }    
+        }
 		form{
 			.boton{
 				border: 1px solid #d4b562;
