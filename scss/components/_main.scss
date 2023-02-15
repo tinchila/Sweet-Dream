@@ -1,5 +1,5 @@
 .hero{
-	color: $color_1;
+	color: $color-primario;
 	text-align: center;
 	background-image: url("../img/herofondo3.png");
 	max-width: 100%;
@@ -8,78 +8,69 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    @extend %flex-colum;
 	p{
 		margin-bottom: 20px;
-		color: $color_1;
-		font-size: 25px;
+		color: $color-primario;
+		font-size: nth($font-size, 4);
 		font-style: italic;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 	}
 	h2{
-		color: $color_1;
-		font-size: 70px;
+		color: $color-primario;
+		font-size: nth($font-size, 13);
 		padding: 20px;
-		font-family: $font-family_3;
+		font-family: $font-family_secundaria;
 	}
 	a{
 		text-decoration: none;
-		color: $color_1;
+		color: $color-primario;
 		font-weight: bold;
-		background-color: $background-color_2;
+		background-color: $background-terciario;
 		padding: 5px 10px;
 		border: 1px solid gray;
 		transition: 1s;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 		&:hover{
-			color: $color_2;
+			color: $color-botones-apretar;
 		}
 	}
 }
 .dream{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	h2{
-		color: $color_3;
-		font-size: 70px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 20px;
-		font-family: $font-family_3;
+		font-family: $font-family_secundaria;
 	}
 	h3{
 		margin-bottom: 20px;
-		color: $color_3;
+		color: $color-secundario;
 		width: 80%;
 		padding: 20px;
-		font-size: 30px;
-		font-family: $font-family_2;
+		font-size: nth($font-size, 5);
+		font-family: $font-family_primaria_cursiva;
 	}
 }
 .calidad{
-	color: $color_1;
+	color: $color-primario;
 	text-align: center;
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	max-width: 100%;
 	height: 350px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	h2{
-		color: $color_1;
-		font-size: 70px;
+		color: $color-primario;
+		font-size: nth($font-size, 13);
 		padding: 20px;
 		width: 100%;
-		background-color: $background-color_1;
-		font-family: $font-family_3;
+		background-color: $background-primario;
+		font-family: $font-family_secundaria;
 	}
 }
 .calidad-imagen{
-	color: $color_1;
+	color: $color-primario;
 	background-image: url("../img/calidad3.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -87,18 +78,13 @@
 	width: 750px;
 }
 .productos{
-	color: $color_1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	color: $color-primario;
+    @extend %flex-colum;
 	padding: 20px;
 	max-width: 100%;
 	height: 850px;
 	div{
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
+        @include flex (flex, space-around, center);
 		padding: 10px;
 		max-width: 100%;
 		height: 350px;
@@ -108,22 +94,19 @@
 			height: 350px;
 			margin: 10px;
 			text-align: center;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			@extend %flex-colum;
 		}
 		a{
 			text-decoration: none;
-			color: $color_1;
+			color: $color-primario;
 			font-weight: bold;
-			background-color: $background-color_2;
+			background-color: $font-family_primaria_cursiva;
 			padding: 5px 10px;
 			display: inline-block;
 			transition: 1s;
-			font-family: $font-family_2;
+			font-family: $font-family_primaria_cursiva;
 			&:hover{
-				color: $color_2;
+				color: $color-botones-apretar;
 			}
 		}
 		img{
@@ -132,16 +115,14 @@
 		}
 	}
 	h2{
-		color: $color_3;
-		font-size: 70px;
-		font-family: $font-family_3;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
+		font-family: $font-family_secundaria;
 		max-width: 100%;
 	}
 }
 .cajasUno{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	padding: 100px;
 	max-width: 100%;
 	height: 150vh;
@@ -155,18 +136,16 @@
 			transform: scale(1.07);
 		}
 		h3{
-			color: $color_3;
-			font-size: 40px;
+			color: $color-secundario;
+			font-size: nth($font-size, 7);
 			padding: 20px;
-			font-family: $font-family_2;
+			font-family: $font-family_primaria_cursiva;
 			font-style: oblique;
 		}
 	}
 }
 .cajasDos{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	padding: 100px;
 	max-width: 100%;
 	height: 150vh;
@@ -180,150 +159,127 @@
 			transform: scale(1.07);
 		}
 		h3{
-			color: $color_3;
-			font-size: 36px;
+			color: $color-secundario;
+			font-size: nth($font-size, 6);
 			padding: 20px;
 			font-style: oblique;
-			font-family: $font-family_2;
+			font-family: $font-family_primaria_cursiva;
 		}
 	}
 }
 .contacto{
-	color: $color_1;
+	color: $color-primario;
 	max-width: 100%;
 	height: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: $background-color_3;
+	@extend %flex-colum;
+	background-color: $background-secundario;
 	p{
 		margin: 5px;
-		color: $color_4;
-		font-size: 25px;
+		color: $color-secundario;
+		font-size: nth($font-size, 4);
 		font-style: italic;
 		padding: 5px;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 		width: 75%;
 	}
 	h2{
-		color: $color_4;
-		font-size: 70px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 5px;
 		max-width: 100%;
 		height: 70px;
 		margin: 10px;
-		font-family: $font-family_3;
+		font-family: $font-family_secundaria;
 		justify-content: center;
 		align-items: center;
 	}
 	a{
 		text-decoration: none;
-		color: $color_1;
+		color: $color-primario;
 		font-weight: bold;
-		background-color: $background-color_2;
+		background-color: $background-terciario;
 		padding: 5px 10px;
 		border: 1px solid gray;
 		justify-content: center;
 		align-items: center;
 		transition: 1s;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 		&:hover{
-			color: $color_2;
+			color: $color-botones-apretar
 		}
 	}
 }
 
 .contactoPagina {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	h2 {
-		color: $color_3;
-		font-size: 120px;
+		color: $color-secundario;
+		font-size: nth($font-size, 23);
 		padding: 20px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 	}
 	h3 {
 		margin-bottom: 20px;
-		color: $color_3;
-		font-size: 25px;
-		font-family: $font-family_2;
+		color: $color-secundario;
+		font-size: nth($font-size, 4);
+		font-family: $font-family_primaria_cursiva;
 		width: 100%;
 		padding: 10px 230px;
 	}
 }
 .formulario {
-	display: flex;
+    @include flex (flex, space-between, center);
 	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: center;
-	background-color: $background-color_3;
-	color: $color_5;
-	font-family: $font-family_2;
+	background-color: $background-secundario;
+	color: $color-terciario;
+	font-family: $font-family_primaria_cursiva;
 }
 .formularioIzquierda {
-	font-size: 35px;
+	font-size: nth($font-size, 6);
 	margin: 20px;
 	padding: 30px;
 	width: 100%;
-	font-family: $font-family_2;
-	color: $color_5;
+	font-family: $font-family_primaria_cursiva;
+	color: $color-terciario;
 	font-style: inherit;
 	div {
 		i {
-			font-size: 50px;
-			color: $color_5;
-			font-family: $font-family_2;
+			font-size: nth($font-size, 9);
+			color: $color-terciario;
+			font-family: $font-family_primaria_cursiva;
 		}
 	}
 	h3 {
-		font-size: 50px;
+		font-size: nth($font-size, 9);
 	}
 	p {
-		font-size: 30px;
+		font-size: nth($font-size, 5);
 	}
 }
 .ubicacion {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: row;
+	@extend %flex-contacto;
 }
 .email {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: row;
+	@extend %flex-contacto;
 }
 .telefono {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: row;
+	@extend %flex-contacto;
 }
 .horario {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: row;
+    @extend %flex-contacto;
 }
 .formularioDerecha {
 	font-size: 18px;
 	margin: 20px;
 	padding: 30px;
 	width: 100%;
-	font-family: $font-family_2;
+	font-family: $font-family_primaria_cursiva;
 }
 .name {
-	font-size: 25px;
+	font-size: nth($font-size, 4);
 }
 .direccion {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	height: 550px;
 	width: 100%;
 }
@@ -338,25 +294,22 @@ input {
 	}
 }
 .produccion {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	max-width: 100%;
 	div {
 		h2 {
-			color: $color_3;
-			font-size: 70px;
+			color: $color-secundario;
+			font-size: nth($font-size, 13);
 			padding: 20px;
-			font-family: $font-family_4;
+			font-family: $font-family_primaria;
 		}
 		p {
-			color: $color_4;
-			font-size: 10px;
+			color: $color-secundario;
+			font-size: nth($font-size, 1);
 			padding: 20px;
 			font-style: italic;
-			font-family: $font-family_2;
-			background-color: $background-color_3;
+			font-family: $font-family_primaria_cursiva;
+			background-color: $background-secundario;
 			background-size: cover;
 		}
 		img {
@@ -365,10 +318,7 @@ input {
 	}
 }
 .container-produccion {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	div {
 		img {
 			width: 500px;
@@ -382,128 +332,106 @@ input {
 		}
 	}
 	p {
-		font-size: 25px;
+		font-size: nth($font-size, 4);
 		max-width: 100%;
 		height: 100%;
-		color: $color_4;
+		color: $color-secundario;
 		padding: 10px 200px 0px 200px;
 		margin-bottom: 0px;
 		font-style: italic;
-		font-family: $font-family_2;
-		background-color: $background-color_3;
+		font-family: $font-family_primaria_cursiva;
+		background-color: $background-secundario;
 		background-size: cover;
 	}
 }
 .Alfajores {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 50%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 20px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		margin-top: 5px;
 		margin-bottom: 10px;
 	}
 }
 .container-alfajores {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+    @extend %flex-colum;
 }
 .imagenes-alfajores {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	width: 100%;
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	@extend %flex-space;
 }
 .Bombones {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 50%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 10px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		height: 20px;
 		margin-bottom: 70px;
 		margin-top: 5px;
 	}
 }
 .container-bombones {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+	@extend %flex-colum;
 }
 .imagenes-bombones {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	width: 100%;
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	@extend %flex-space;
 }
 .Chocolates {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 60%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 10px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		height: 20px;
 		margin-bottom: 70px;
 		margin-top: 5px;
 	}
 }
 .container-chocolates {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+	@extend %flex-colum;
 }
 .imagenes-chocolates {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
@@ -511,6 +439,7 @@ input {
 	width: 100%;
 	gap: 10px;
 	height: 900px;
+    padding: 20px;
 	div {
 		img {
 			width: 100%;
@@ -520,122 +449,101 @@ input {
 	}
 }
 .Huevos {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 50%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 10px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		height: 20px;
 		margin-bottom: 70px;
 		margin-top: 5px;
 	}
 }
 .container-huevos {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+	@extend %flex-colum;
 }
 .imagenes-huevos {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	width: 100%;
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	@extend %flex-space;
 }
 .Pan {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 50%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 10px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		height: 20px;
 		margin-bottom: 70px;
 		margin-top: 5px;
 	}
 }
 .container-panes {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+	@extend %flex-colum;
 }
 .imagenes-panes {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	width: 100%;
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	@extend %flex-space;
 }
 .Regalos {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	position: relative;
 	height: 80%;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 80px;
+		color: $color-secundario;
+		font-size: nth($font-size, 13);
 		padding: 0px 10px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 		height: 20px;
 		margin-top: 5px;
 		margin-bottom: 70px;
 	}
 }
 .container-regalos {
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	width: 100%;
 	height: 450px;
 	margin-top: 10px;
 	padding-top: 20px;
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	flex-direction: column;
+	@extend %flex-colum;
 }
 .imagenes-empresariales {
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(3, 2fr);
 	grid-auto-rows: 350px;
 	width: 100%;
-	gap: 5px;
+	gap: 30px;
+    padding: 20px;
 	div {
 		img {
 			width: 100%;
@@ -646,17 +554,14 @@ input {
 }
 .video {
 	max-width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-colum;
 	padding: 40px;
 	h2 {
-		color: $color_3;
-		font-size: 50px;
+		color: $color-secundario;
+		font-size: nth($font-size, 9);
 		padding: 20px;
 		width: 100%;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 	}
 }
 .video1 {
@@ -670,41 +575,36 @@ input {
 }
 .historia {
 	background-size: cover;
-	background-color: $background-color_3;
+	background-color: $background-secundario;
 	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	@extend %flex-row;
 	h2 {
-		color: $color_3;
-		background-color: $background-color_3;
+		color: $color-secundario;
+		background-color: $background-secundario;
 		background-size: cover;
-		font-size: 70px;
+		font-size: nth($font-size, 13);
 		padding: 10px;
 		width: 80%;
 		margin: 20px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 	}
 	p {
 		margin: 10px;
 		max-width: 80%;
-		color: $color_4;
-		font-size: 20px;
+		color: $color-secundario;
+		font-size: nth($font-size, 3);
 		padding: 10px;
 		font-style: italic;
-		background-color: $background-color_3;
+		background-color: $background-secundario;
 		background-size: cover;
-		font-family: $font-family_2;
+		font-family: $font-family_primaria_cursiva;
 	}
 }
 .grid-historia {
 	height: 400px;
 	max-width: 100%;
-	background-color: $background-color_4;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
+	background-color: $background-cuaternario;
+	@include flex (flex, space-evenly, center);
 	flex-direction: row;
 }
 .grid-history {
@@ -723,32 +623,29 @@ input {
 	}
 }
 .tienda {
-	color: $color_3;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	color: $color-secundario;
+	@extend %flex-colum;
 	width: 100%;
 	h2 {
-		color: $color_3;
-		font-size: 120px;
+		color: $color-secundario;
+		font-size: nth($font-size, 23);
 		padding: 20px;
-		font-family: $font-family_4;
+		font-family: $font-family_primaria;
 	}
 	ol {
-		color: $color_3;
+		color: $color-secundario;
 		width: 100%;
-		font-size: 25px;
+		font-size: nth($font-size, 4);
 		padding: 20px 100px 20px;
-		font-family: $font-family_2;
-		background-color: $background-color_3;
+		font-family: $font-family_primaria_cursiva;
+		background-color: $background-secundario;
 		font-style: italic;
 		height: 400px;
 		margin: 10px;
 	}
 }
 .ecomerce {
-	background-color: $background-color_4;
+	background-color: $background-cuaternario;
 	padding: 20px;
 	width: 100%;
 	height: 50vh;

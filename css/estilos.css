@@ -3,6 +3,33 @@
   padding: 0;
   box-sizing: border-box; }
 
+.cajasUno, .cajasDos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero, .dream, .calidad, .productos, .productos div div, .contacto, .contactoPagina, .direccion, .produccion, .container-produccion, .Alfajores, .container-alfajores, .Bombones, .container-bombones, .Chocolates, .container-chocolates, .Huevos, .container-huevos, .Pan, .container-panes, .Regalos, .container-regalos, .video, .tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.ubicacion, .email, .telefono, .horario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagenes-alfajores, .imagenes-bombones, .imagenes-huevos, .imagenes-panes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 @media screen and (max-width: 1045px) {
   header h1 {
     font-size: 50px;
@@ -913,11 +940,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  background-attachment: fixed; }
   .hero p {
     margin-bottom: 20px;
     color: white;
@@ -941,34 +964,26 @@ header {
     .hero a:hover {
       color: #e86686; }
 
-.dream {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .dream h2 {
-    color: black;
-    font-size: 70px;
-    padding: 20px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-  .dream h3 {
-    margin-bottom: 20px;
-    color: black;
-    width: 80%;
-    padding: 20px;
-    font-size: 30px;
-    font-family: "Indie Flower", cursive; }
+.dream h2 {
+  color: black;
+  font-size: 70px;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.dream h3 {
+  margin-bottom: 20px;
+  color: black;
+  width: 80%;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive; }
 
 .calidad {
   color: white;
   text-align: center;
   background-color: #3d210f;
   max-width: 100%;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  height: 350px; }
   .calidad h2 {
     color: white;
     font-size: 70px;
@@ -987,10 +1002,6 @@ header {
 
 .productos {
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
   max-width: 100%;
   height: 850px; }
@@ -1006,16 +1017,12 @@ header {
       max-width: 250px;
       height: 350px;
       margin: 10px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      text-align: center; }
     .productos div a {
       text-decoration: none;
       color: white;
       font-weight: bold;
-      background-color: black;
+      background-color: "Indie Flower", cursive;
       padding: 5px 10px;
       display: inline-block;
       transition: 1s;
@@ -1032,9 +1039,6 @@ header {
     max-width: 100%; }
 
 .cajasUno {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 100px;
   max-width: 100%;
   height: 150vh;
@@ -1054,9 +1058,6 @@ header {
       font-style: oblique; }
 
 .cajasDos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 100px;
   max-width: 100%;
   height: 150vh;
@@ -1070,7 +1071,7 @@ header {
       transform: scale(1.07); }
     .cajasDos div h3 {
       color: black;
-      font-size: 36px;
+      font-size: 35px;
       padding: 20px;
       font-style: oblique;
       font-family: "Indie Flower", cursive; }
@@ -1079,21 +1080,17 @@ header {
   color: white;
   max-width: 100%;
   height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #d4b562; }
   .contacto p {
     margin: 5px;
-    color: Black;
+    color: black;
     font-size: 25px;
     font-style: italic;
     padding: 5px;
     font-family: "Indie Flower", cursive;
     width: 75%; }
   .contacto h2 {
-    color: Black;
+    color: black;
     font-size: 70px;
     padding: 5px;
     max-width: 100%;
@@ -1116,29 +1113,25 @@ header {
     .contacto a:hover {
       color: #e86686; }
 
-.contactoPagina {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .contactoPagina h2 {
-    color: black;
-    font-size: 120px;
-    padding: 20px;
-    font-family: "Dancing Script"; }
-  .contactoPagina h3 {
-    margin-bottom: 20px;
-    color: black;
-    font-size: 25px;
-    font-family: "Indie Flower", cursive;
-    width: 100%;
-    padding: 10px 230px; }
+.contactoPagina h2 {
+  color: black;
+  font-size: 120px;
+  padding: 20px;
+  font-family: "Dancing Script"; }
+
+.contactoPagina h3 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  width: 100%;
+  padding: 10px 230px; }
 
 .formulario {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
   background-color: #d4b562;
   color: #3d210f;
   font-family: "Indie Flower", cursive; }
@@ -1160,30 +1153,6 @@ header {
   .formularioIzquierda p {
     font-size: 30px; }
 
-.ubicacion {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row; }
-
-.email {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row; }
-
-.telefono {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row; }
-
-.horario {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row; }
-
 .formularioDerecha {
   font-size: 18px;
   margin: 20px;
@@ -1195,10 +1164,6 @@ header {
   font-size: 25px; }
 
 .direccion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 550px;
   width: 100%; }
 
@@ -1211,10 +1176,6 @@ input:focus {
   border: 1px solid #3d210f; }
 
 .produccion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 100%; }
   .produccion div h2 {
     color: black;
@@ -1222,7 +1183,7 @@ input:focus {
     padding: 20px;
     font-family: "Dancing Script"; }
   .produccion div p {
-    color: Black;
+    color: black;
     font-size: 10px;
     padding: 20px;
     font-style: italic;
@@ -1232,43 +1193,35 @@ input:focus {
   .produccion div img {
     max-width: 100%; }
 
-.container-produccion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .container-produccion div img {
-    width: 500px;
-    height: 400px;
-    object-fit: inherit;
-    overflow: hidden;
-    position: relative;
-    margin: 0px;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black; }
-  .container-produccion p {
-    font-size: 25px;
-    max-width: 100%;
-    height: 100%;
-    color: Black;
-    padding: 10px 200px 0px 200px;
-    margin-bottom: 0px;
-    font-style: italic;
-    font-family: "Indie Flower", cursive;
-    background-color: #d4b562;
-    background-size: cover; }
+.container-produccion div img {
+  width: 500px;
+  height: 400px;
+  object-fit: inherit;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black; }
+
+.container-produccion p {
+  font-size: 25px;
+  max-width: 100%;
+  height: 100%;
+  color: black;
+  padding: 10px 200px 0px 200px;
+  margin-bottom: 0px;
+  font-style: italic;
+  font-family: "Indie Flower", cursive;
+  background-color: #d4b562;
+  background-size: cover; }
 
 .Alfajores {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 50%;
   width: 100%; }
   .Alfajores h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 20px;
     font-family: "Dancing Script";
     margin-top: 5px;
@@ -1279,11 +1232,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-alfajores {
   background-color: #d4b562;
@@ -1291,22 +1240,15 @@ input:focus {
   padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  padding-bottom: 20px; }
 
 .Bombones {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 50%;
   width: 100%; }
   .Bombones h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 10px;
     font-family: "Dancing Script";
     height: 20px;
@@ -1318,11 +1260,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-bombones {
   background-color: #d4b562;
@@ -1330,22 +1268,15 @@ input:focus {
   padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  padding-bottom: 20px; }
 
 .Chocolates {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 60%;
   width: 100%; }
   .Chocolates h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 10px;
     font-family: "Dancing Script";
     height: 20px;
@@ -1357,11 +1288,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-chocolates {
   background-color: #d4b562;
@@ -1371,23 +1298,20 @@ input:focus {
   grid-auto-rows: 250px;
   width: 100%;
   gap: 10px;
-  height: 900px; }
+  height: 900px;
+  padding: 20px; }
   .imagenes-chocolates div img {
     width: 100%;
     height: 100%;
     object-fit: cover; }
 
 .Huevos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 50%;
   width: 100%; }
   .Huevos h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 10px;
     font-family: "Dancing Script";
     height: 20px;
@@ -1399,11 +1323,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-huevos {
   background-color: #d4b562;
@@ -1411,22 +1331,15 @@ input:focus {
   padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  padding-bottom: 20px; }
 
 .Pan {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 50%;
   width: 100%; }
   .Pan h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 10px;
     font-family: "Dancing Script";
     height: 20px;
@@ -1438,11 +1351,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-panes {
   background-color: #d4b562;
@@ -1450,22 +1359,15 @@ input:focus {
   padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  padding-bottom: 20px; }
 
 .Regalos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 80%;
   width: 100%; }
   .Regalos h2 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0px 10px;
     font-family: "Dancing Script";
     height: 20px;
@@ -1477,11 +1379,7 @@ input:focus {
   width: 100%;
   height: 450px;
   margin-top: 10px;
-  padding-top: 20px;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  flex-direction: column; }
+  padding-top: 20px; }
 
 .imagenes-empresariales {
   background-color: #d4b562;
@@ -1490,7 +1388,8 @@ input:focus {
   grid-template-rows: repeat(3, 2fr);
   grid-auto-rows: 350px;
   width: 100%;
-  gap: 5px; }
+  gap: 30px;
+  padding: 20px; }
   .imagenes-empresariales div img {
     width: 100%;
     height: 100%;
@@ -1498,10 +1397,6 @@ input:focus {
 
 .video {
   max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 40px; }
   .video h2 {
     color: black;
@@ -1522,11 +1417,7 @@ input:focus {
 .historia {
   background-size: cover;
   background-color: #d4b562;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
+  max-width: 100%; }
   .historia h2 {
     color: black;
     background-color: #d4b562;
@@ -1539,7 +1430,7 @@ input:focus {
   .historia p {
     margin: 10px;
     max-width: 80%;
-    color: Black;
+    color: black;
     font-size: 20px;
     padding: 10px;
     font-style: italic;
@@ -1552,8 +1443,8 @@ input:focus {
   max-width: 100%;
   background-color: white;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   flex-direction: row; }
 
 .grid-history div img {
@@ -1569,10 +1460,6 @@ input:focus {
 
 .tienda {
   color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%; }
   .tienda h2 {
     color: black;
@@ -1606,9 +1493,9 @@ input:focus {
   font-weight: 10;
   text-decoration: none;
   display: flex;
-  flex-grow: inherit;
-  align-content: flex-end;
   justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: inherit;
   flex-direction: row-reverse; }
 
 .footerDerecha {
@@ -1618,8 +1505,8 @@ input:focus {
   margin: 5px;
   height: 110px;
   display: flex;
-  align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   .footerDerecha img {
     color: white;
     width: 45px;
@@ -1644,7 +1531,7 @@ input:focus {
   color: white;
   font-size: 15px;
   padding: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: font-family_secundaria;
   width: 100%;
   height: 100%;
   margin-left: 45px;

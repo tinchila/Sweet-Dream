@@ -1,20 +1,18 @@
 header{
-	background-color: $background-color_1;
+	background-color: $background-primario;
 	position: static;
 	top: 0;
 	bottom: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    @include flex (flex, space-between, center);
 	height: 155px;
 	width: 100%;
 	h1{
 		font-size: 65px;
 		padding: 10px;
-		font-family: $font-family_1;
+		font-family: $font-family_titulo;
 		font-weight: 600;
 		font-style: normal;
-		color: $color_1;
+		color: $color-primario;
 		margin: 10px;
 		width: 100%;
 	}
@@ -22,17 +20,17 @@ header{
 		text-decoration: none;
 	}
 	nav{
-        background-color: $background-color_1;
+        background-color: $background-primario;
 		div{
             div{
                 ul{
                     li{
                     .nav-item{
                         transition: 0.5s;
-                        font-family: $font-family_2;
+                        font-family: $font-family_primaria_cursiva;
                         font-size: 17px;
                         &:hover{
-                            color: $color_2;
+                            color: $color-botones-apretar;
                         }
                         a{
                             img {
@@ -49,12 +47,12 @@ header{
 		form{
 			.boton{
 				border: 1px solid #d4b562;
-				color: $color_1;
+				color: $color-primario;
 				transition: 0.5s;
-				font-family: $font-family_2;
+				font-family: $font-family_primaria_cursiva;
 				font-size: 17px;
 				&:hover{
-					color: $color_2;
+					color: $color-botones-apretar;
 				}
 			}
 		}

@@ -1,13 +1,84 @@
-$color_1: white;
-$color_2: rgb(232, 102, 134);
-$color_3: black;
-$color_4: Black;
-$color_5: #3d210f;
-$font-family_1: 'Dancing Script', cursive;
-$font-family_2: 'Indie Flower', cursive;
-$font-family_3: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-$font-family_4: 'Dancing Script';
-$background-color_1: #3d210f;
-$background-color_2: black;
-$background-color_3: #d4b562;
-$background-color_4: white;
+$color-primario: white;
+$color-botones-apretar: rgb(232, 102, 134);
+$color-secundario: black;
+$color-terciario: #3d210f;
+
+
+$font-family_titulo: 'Dancing Script', cursive;
+$font-family_primaria_cursiva: 'Indie Flower', cursive;
+$font-family_secundaria: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font-family_primaria: 'Dancing Script';
+
+
+$background-primario: #3d210f;
+$background-terciario: black;
+$background-secundario: #d4b562;
+$background-cuaternario: white;
+
+$font-size:
+10px,
+15px,
+20px,
+25px,
+30px,
+35px,
+40px,
+45px,
+50px,
+55px,
+60px,
+65px,
+70px,
+75px,
+80px,
+85px,
+90px,
+95px,
+100px,
+105px,
+110px,
+115px,
+120px;
+
+
+
+
+
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+%flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+%flex-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-space{
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}

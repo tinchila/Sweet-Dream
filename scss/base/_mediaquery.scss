@@ -124,20 +124,20 @@
 		}
 		a{
 			text-decoration: none;
-			color: $color_1;
+			color: $color-primario;
 			font-weight: bold;
-			background-color: $background-color_2;
+			background-color: $background-terciario;
 			padding: 5px 10px;
 			border: 1px solid gray;
 			justify-content: center;
 			align-items: center;
 			transition: 1s;
-			font-family: $font-family_2;
+			font-family: $font-family_primaria_cursiva;
 		}
 	}
 	.footerDerecha{
 		img{
-			color: $color_1;
+			color: $color-primario;
 			width: 40px;
 			height: 35px;
 			margin: 15px;
@@ -1132,7 +1132,7 @@
 	.grid-historia{
 		height: 800px;
 		max-width: 100%;
-		background-color: $background-color_4;
+		background-color: $background-cuaternario;
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;
