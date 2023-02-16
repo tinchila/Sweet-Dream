@@ -90,14 +90,15 @@ header {
     padding: 20px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .hero a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
     background-color: black;
-    padding: 5px 10px;
     border: 1px solid gray;
+    padding: 5px 10px;
+    display: inline-block;
     transition: 1s;
-    font-family: "Indie Flower", cursive; }
+    font-family: "Indie Flower", cursive;
+    text-decoration: none; }
     .hero a:hover {
       color: #e86686; }
 
@@ -156,14 +157,15 @@ header {
       margin: 10px;
       text-align: center; }
     .productos div a {
-      text-decoration: none;
       color: white;
       font-weight: bold;
       background-color: black;
+      border: 1px solid gray;
       padding: 5px 10px;
       display: inline-block;
       transition: 1s;
-      font-family: "Indie Flower", cursive; }
+      font-family: "Indie Flower", cursive;
+      text-decoration: none; }
       .productos div a:hover {
         color: #e86686; }
     .productos div img {
@@ -237,16 +239,17 @@ header {
     justify-content: center;
     align-items: center; }
   .contacto a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
     background-color: black;
-    padding: 5px 10px;
     border: 1px solid gray;
-    justify-content: center;
-    align-items: center;
+    padding: 5px 10px;
+    display: inline-block;
     transition: 1s;
-    font-family: "Indie Flower", cursive; }
+    font-family: "Indie Flower", cursive;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; }
     .contacto a:hover {
       color: #e86686; }
 

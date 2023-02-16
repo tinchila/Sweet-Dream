@@ -27,14 +27,15 @@
 	}
 
 	a{
-		text-decoration: none;
-		color: $color-primario;
-		font-weight: bold;
-		background-color: $background-terciario;
-		padding: 5px 10px;
-		border: 1px solid gray;
-		transition: 1s;
-		font-family: $font-family_primaria_cursiva;
+		color: map-get($boton, color-boton);
+		font-weight: map-get($boton, fw-boton);
+		background-color: map-get($boton, bg-boton);
+		border: map-get($boton, border-boton);
+		padding: map-get($boton, padding-boton);
+		display: inline-block;
+		transition: map-get($boton, transition-boton);
+		font-family: map-get($boton, ff-boton);
+		text-decoration: map-get($boton, td-boton);
 		&:hover{
 			color: $color-botones-apretar;
 		}
@@ -106,14 +107,15 @@
 			@extend %flex-colum;
 		}
 		a{
-			text-decoration: none;
-		    color: $color-primario;
-		    font-weight: bold;
-		    background-color: $background-terciario;
-			padding: 5px 10px;
-			display: inline-block;
-			transition: 1s;
-			font-family: $font-family_primaria_cursiva;
+		color: map-get($boton, color-boton);
+		font-weight: map-get($boton, fw-boton);
+		background-color: map-get($boton, bg-boton);
+		border: map-get($boton, border-boton);
+		padding: map-get($boton, padding-boton);
+		display: inline-block;
+		transition: map-get($boton, transition-boton);
+		font-family: map-get($boton, ff-boton);
+		text-decoration: map-get($boton, td-boton);
 			&:hover{
 				color: $color-botones-apretar;
 			}
@@ -209,16 +211,17 @@
 	}
 
 	a{
-		text-decoration: none;
-		color: $color-primario;
-		font-weight: bold;
-		background-color: $background-terciario;
-		padding: 5px 10px;
-		border: 1px solid gray;
+		color: map-get($boton, color-boton);
+		font-weight: map-get($boton, fw-boton);
+		background-color: map-get($boton, bg-boton);
+		border: map-get($boton, border-boton);
+		padding: map-get($boton, padding-boton);
+		display: inline-block;
+		transition: map-get($boton, transition-boton);
+		font-family: map-get($boton, ff-boton);
+		text-decoration: map-get($boton, td-boton);
 		justify-content: center;
 		align-items: center;
-		transition: 1s;
-		font-family: $font-family_primaria_cursiva;
 		&:hover{
 			color: $color-botones-apretar
 		}

@@ -40,10 +40,16 @@ $font-size:
 115px,
 120px;
 
-
-
-
-
+$boton:(
+    border-boton: 1px solid gray,
+    td-boton: none,
+    color-boton: white,
+    fw-boton: bold,
+    bg-boton: $background-terciario,
+    padding-boton: 5px 10px,
+    transition-boton: 1s,
+    ff-boton: $font-family_primaria_cursiva,
+);
 
 %flex{
     display: flex;
