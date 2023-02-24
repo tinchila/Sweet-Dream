@@ -1,9 +1,15 @@
 @media screen and (max-width:1069px){
 	header{
 		h1{
-			font-size: 50px;
+			font-size: 70px;
 			padding: 10px;
 		}
+	}
+}
+
+@media screen and (max-width:992px){
+	header{
+		height: 350px;
 	}
 }
 
@@ -635,7 +641,7 @@
 
 @media screen and (max-width:412px){
 	header{
-		height: 170px;
+		height: 350px;
 		h1{
 			font-size: 28px;
 			padding: 0px;

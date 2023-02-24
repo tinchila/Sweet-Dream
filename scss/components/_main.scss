@@ -286,6 +286,9 @@
 
 .email {
 	@include flex (flex, space-evenly, center);
+	i.bi.bi-envelope-at{
+		margin-left: 110px;
+	}
 }
 
 .telefono {
@@ -373,6 +376,7 @@ input {
 		color: $color-secundario;
 		padding: 10px 200px 0px 200px;
 		margin-bottom: 0px;
+		padding-bottom: 0px;
 		font-style: italic;
 		font-family: $font-family_primaria_cursiva;
 		background-color: $background-secundario;
@@ -446,6 +450,7 @@ input {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	margin-top: 0px;
 	@extend %flex-space;
 }
 

@@ -4,6 +4,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+  position: fixed;
+  bottom: 65px;
+  right: 1px; }
+
 .cajasUno, .cajasDos {
   display: flex;
   justify-content: center;
@@ -303,6 +313,8 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  .email i.bi.bi-envelope-at {
+    margin-left: 110px; }
 
 .telefono {
   display: flex;
@@ -371,6 +383,7 @@ input:focus {
   color: black;
   padding: 10px 200px 0px 200px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
   font-style: italic;
   font-family: "Indie Flower", cursive;
   background-color: #d4b562;
@@ -429,7 +442,8 @@ input:focus {
   padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 0px; }
 
 .Chocolates {
   position: relative;
@@ -725,8 +739,12 @@ input:focus {
 
 @media screen and (max-width: 1069px) {
   header h1 {
-    font-size: 50px;
+    font-size: 70px;
     padding: 10px; } }
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 350px; } }
 
 @media screen and (max-width: 920px) {
   .hero p {
@@ -1156,7 +1174,7 @@ input:focus {
 
 @media screen and (max-width: 412px) {
   header {
-    height: 170px; }
+    height: 350px; }
     header h1 {
       font-size: 28px;
       padding: 0px; }
